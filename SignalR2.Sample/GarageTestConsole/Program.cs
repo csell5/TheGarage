@@ -4,7 +4,10 @@ using System.Configuration;
 using System.IO;
 using System.Net;
 using System.Xml.Linq;
+using GarageTestConsole.Devices;
+using GarageTestConsole.Hubs;
 using GarageTestConsole.Security;
+using Microsoft.AspNet.SignalR;
 using Microsoft.AspNet.SignalR.Client.Hubs;
 using Newtonsoft.Json;
 
@@ -54,8 +57,12 @@ namespace GarageTestConsole
         public string DeviceUrl { get; private set; }
     }
 
-    class Application
+    public class Application
     {
+        public static HubConnection Connection { get; private set; }
+        public static IHubProxy Proxy { get; private set; }
+        public static Garage LastGarageStatus { get; set; }
+
         public static readonly Dictionary<string, Device> DeviceList = new Dictionary<string, Device>(); 
 
         static void ActivateDoor(int id, string command)
@@ -63,7 +70,7 @@ namespace GarageTestConsole
             var commandToSend = new GarageComponentCommand {component = "door", componentNumber = id, command = command};
             var jsonToSend = JsonConvert.SerializeObject(commandToSend);
 
-            HttpHelper.SendJsonCommand(Application.DeviceList["Garage 1"].DeviceUrl + "trigger", jsonToSend);
+            HttpHelper.SendJsonCommand(DeviceList["Garage 1"].DeviceUrl + "trigger", jsonToSend);
 
             Console.WriteLine("JSON Sent to Garage: " + jsonToSend);
         }
@@ -73,7 +80,7 @@ namespace GarageTestConsole
             var commandToSend = new GarageComponentCommand { component = "light", componentNumber = id, command = command };
             var jsonToSend = JsonConvert.SerializeObject(commandToSend);
 
-            HttpHelper.SendJsonCommand(Application.DeviceList["Garage 1"].DeviceUrl + "trigger", jsonToSend);
+            HttpHelper.SendJsonCommand(DeviceList["Garage 1"].DeviceUrl + "trigger", jsonToSend);
 
             Console.WriteLine("JSON Sent to Garage: " + jsonToSend);
         }
@@ -83,9 +90,26 @@ namespace GarageTestConsole
             var commandToSend = new GarageComponentCommand { component = "softlock", componentNumber = 0, command = command };
             var jsonToSend = JsonConvert.SerializeObject(commandToSend);
 
-            HttpHelper.SendJsonCommand(Application.DeviceList["Garage 1"].DeviceUrl + "trigger", jsonToSend);
+            HttpHelper.SendJsonCommand(DeviceList["Garage 1"].DeviceUrl + "trigger", jsonToSend);
 
             Console.WriteLine("JSON Sent to Garage: " + jsonToSend);
+        }
+
+        static void RequestStatus(string id)
+        {
+            var hubContext = GlobalHost.ConnectionManager.GetHubContext<DeviceCommunicationHub>();
+
+            hubContext.Clients.All.OnLockChange(LastGarageStatus.Name, LastGarageStatus.Locked, LastGarageStatus.HardwareLock, LastGarageStatus.SoftLock);
+
+            for (var i = 0; i < LastGarageStatus.Door.Length; i++)
+            {
+                hubContext.Clients.All.OnDoorChange(i, LastGarageStatus.Door[i].Status);
+            }
+
+            for (var i = 0; i < LastGarageStatus.Light.Length; i++)
+            {
+                hubContext.Clients.All.OnDoorChange(i, LastGarageStatus.Light[i].Status);
+            }
         }
 
         //static void Broadcast(FromServerToClientData data)
@@ -135,24 +159,25 @@ namespace GarageTestConsole
             var pw = ConfigurationManager.AppSettings["Password"];
 
             // Connect to the service
-            var connection = new HubConnection(parentHub);
-            var proxy = connection.CreateHubProxy("DeviceCommunicationHub");
+            Connection = new HubConnection(parentHub);
+            Proxy = Connection.CreateHubProxy("DeviceCommunicationHub");
 
-            proxy.On<int, string>("ActivateDoor", ActivateDoor);
-            proxy.On<int, string>("ActivateLight", ActivateLight);
-            proxy.On<string>("ActivateSoftLock", ActivateSoftLock);
+            Proxy.On<int, string>("ActivateDoor", ActivateDoor);
+            Proxy.On<int, string>("ActivateLight", ActivateLight);
+            Proxy.On<string>("ActivateSoftLock", ActivateSoftLock);
+            Proxy.On<string>("RequestStatus", RequestStatus);
 
             //proxy.On<FromServerToClientData>("Broadcast", Broadcast);
             //proxy.On<string>("BroadcastToGroup", BroadcastToGroup);
             //proxy.On<FromServerToClientData>("OthersCallback", OthersCallback);
-            connection.Start().Wait();
+            Connection.Start().Wait();
 
-            var identityPayload = new DeviceHubIdentity(new NetworkCredential { UserName = locationId, Password = pw }, connection.ConnectionId)
+            var identityPayload = new DeviceHubIdentity(new NetworkCredential { UserName = locationId, Password = pw }, Connection.ConnectionId)
                 .EncryptAndEncode(key, initializationVector);
 
             var signOnRequest = new SignOnRequest { LocationId = locationId, Identity = identityPayload };
 
-            proxy.Invoke<Response>("SignOn", signOnRequest).ContinueWith(task =>
+            Proxy.Invoke<Response>("SignOn", signOnRequest).ContinueWith(task =>
             {
                 var response = task.Result;
                 Console.WriteLine("Response: {0}", response.Payload);

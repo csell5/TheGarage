@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Sample.Client", "Si
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR.Sample.WinRTClient", "SignalR.Sample.WinRTClient\SignalR.Sample.WinRTClient.csproj", "{F6BFC36F-9B69-4676-9D5E-4E45A40CBC51}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarageTestConsole", "..\GarageTestConsole\GarageTestConsole\GarageTestConsole.csproj", "{571BFCB8-102B-4D2A-AE89-3A63E183E124}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GarageTestConsole", "GarageTestConsole\GarageTestConsole.csproj", "{571BFCB8-102B-4D2A-AE89-3A63E183E124}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
