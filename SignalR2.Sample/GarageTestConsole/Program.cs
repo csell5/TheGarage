@@ -1,15 +1,14 @@
-﻿using System;
+﻿using GarageTestConsole.Devices;
+//using GarageTestConsole.Hubs;
+using GarageTestConsole.Security;
+using Microsoft.AspNet.SignalR.Client.Hubs;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.IO;
 using System.Net;
 using System.Xml.Linq;
-using GarageTestConsole.Devices;
-using GarageTestConsole.Hubs;
-using GarageTestConsole.Security;
-using Microsoft.AspNet.SignalR;
-using Microsoft.AspNet.SignalR.Client.Hubs;
-using Newtonsoft.Json;
 
 namespace GarageTestConsole
 {
@@ -63,11 +62,11 @@ namespace GarageTestConsole
         public static IHubProxy Proxy { get; private set; }
         public static Garage LastGarageStatus { get; set; }
 
-        public static readonly Dictionary<string, Device> DeviceList = new Dictionary<string, Device>(); 
+        public static readonly Dictionary<string, Device> DeviceList = new Dictionary<string, Device>();
 
         static void ActivateDoor(int id, string command)
         {
-            var commandToSend = new GarageComponentCommand {component = "door", componentNumber = id, command = command};
+            var commandToSend = new GarageComponentCommand { component = "door", componentNumber = id, command = command };
             var jsonToSend = JsonConvert.SerializeObject(commandToSend);
 
             HttpHelper.SendJsonCommand(DeviceList["Garage 1"].DeviceUrl + "trigger", jsonToSend);
@@ -97,19 +96,13 @@ namespace GarageTestConsole
 
         static void RequestStatus(string id)
         {
-            var hubContext = GlobalHost.ConnectionManager.GetHubContext<DeviceCommunicationHub>();
-
-            hubContext.Clients.All.OnLockChange(LastGarageStatus.Name, LastGarageStatus.Locked, LastGarageStatus.HardwareLock, LastGarageStatus.SoftLock);
+            Proxy.Invoke("OnLockedChange", LastGarageStatus.Name, LastGarageStatus.Locked, LastGarageStatus.HardwareLock, LastGarageStatus.SoftLock);
 
             for (var i = 0; i < LastGarageStatus.Door.Length; i++)
-            {
-                hubContext.Clients.All.OnDoorChange(i, LastGarageStatus.Door[i].Status);
-            }
+                Proxy.Invoke("OnDoorChange", i, LastGarageStatus.Door[i].Status);
 
             for (var i = 0; i < LastGarageStatus.Light.Length; i++)
-            {
-                hubContext.Clients.All.OnLightChange(i, LastGarageStatus.Light[i].Status);
-            }
+                Proxy.Invoke("OnLightChange", i, LastGarageStatus.Light[i].Status);
         }
 
         //static void Broadcast(FromServerToClientData data)
@@ -141,7 +134,7 @@ namespace GarageTestConsole
                                     new Device(device.Attribute("name").Value, device.Attribute("deviceType").Value,
                                                device.Attribute("deviceUrl").Value));
                 }
-                
+
 
             }
         }
@@ -188,7 +181,7 @@ namespace GarageTestConsole
 
             Console.ReadLine();
 
-            
+
         }
 
         //private static void SignalRMessage(string obj)

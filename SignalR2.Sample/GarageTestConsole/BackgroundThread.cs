@@ -1,9 +1,7 @@
-﻿using System;
-using System.Threading;
-using GarageTestConsole.Devices;
-using GarageTestConsole.Hubs;
-using Microsoft.AspNet.SignalR;
+﻿using GarageTestConsole.Devices;
 using Newtonsoft.Json;
+using System;
+using System.Threading;
 
 namespace GarageTestConsole
 {
@@ -13,7 +11,7 @@ namespace GarageTestConsole
         {
             ThreadPool.QueueUserWorkItem(_ =>
             {
-                var hubContext = GlobalHost.ConnectionManager.GetHubContext<DeviceCommunicationHub>();
+                //var hubContext = GlobalHost.ConnectionManager.GetHubContext<DeviceCommunicationHub>();
 
                 while (true)
                 {
@@ -29,16 +27,19 @@ namespace GarageTestConsole
                             {
                                 Application.LastGarageStatus = new Garage();
 
-                                hubContext.Clients.All.OnLockChange(garage.Name, garage.Locked, garage.HardwareLock, garage.SoftLock);
+                                //hubContext.Clients.All.OnLockChange(garage.Name, garage.Locked, garage.HardwareLock, garage.SoftLock);
+                                Application.Proxy.Invoke("OnLockChange", garage.Name, garage.Locked, garage.HardwareLock, garage.SoftLock);
 
                                 for (var i = 0; i < garage.Door.Length; i++)
                                 {
-                                    hubContext.Clients.All.OnDoorChange(i, garage.Door[i].Status);
+                                    Application.Proxy.Invoke("OnDoorChange", i, garage.Door[i].Status);
+                                    //hubContext.Clients.All.OnDoorChange(i, garage.Door[i].Status);
                                 }
 
                                 for (var i = 0; i < garage.Light.Length; i++)
                                 {
-                                    hubContext.Clients.All.OnDoorChange(i, garage.Light[i].Status);
+                                    Application.Proxy.Invoke("OnLightChange", i, garage.Light[i].Status);
+                                    //hubContext.Clients.All.OnDoorChange(i, garage.Light[i].Status);
                                 }
                             }
                             else
@@ -77,7 +78,7 @@ namespace GarageTestConsole
 
                     Thread.Sleep(TimeSpan.FromSeconds(2));
                 }
-            // ReSharper disable FunctionNeverReturns
+                // ReSharper disable FunctionNeverReturns
             });
             // ReSharper restore FunctionNeverReturns
         }

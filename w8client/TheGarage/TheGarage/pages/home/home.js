@@ -46,21 +46,18 @@
                     proxy.invoke("ActivateDoor", "0", "open");
                 }
 
-                //TODO: THERE IS A TOGGLE STATE
+                //TODO: THERE IS ALSO A TOGGLE STATE
             });
 
         });
 
-
-        //DOOR
         proxy.on('OnDoorChange', function (id, status) {
             
             switch (status) {
                 case 'up':
                     isDoorOpen = true;
 
-                    $('#Door').removeClass('doorClosed');
-                    $('#Door').removeClass('doorUnknown');
+                    $('#Door').removeClass('doorClosed doorUnknown');
                     $('#Door').attr('class', 'doorOpen');
 
                     break;
@@ -68,17 +65,16 @@
                 case 'down':
                     isDoorOpen = false;
 
-                    $('#Door').removeClass('doorOpen');
-                    $('#Door').removeClass('doorUnknown');
+                    $('#Door').removeClass('doorOpen doorUnknown');
                     $('#Door').attr('class', 'doorClosed');
 
                     break;
 
                 case 'unknown':
-                    //TODO: MAKE IT BLINK two colors
-                    $('#Door').removeClass('doorOpen');
-                    $('#Door').removeClass('doorClosed')
+                    $('#Door').removeClass('doorOpen doorClosed');
                     $('#Door').attr('class', 'doorUnknown');
+
+                    //TODO some animation here should be cool.
 
                     break;
                 default:

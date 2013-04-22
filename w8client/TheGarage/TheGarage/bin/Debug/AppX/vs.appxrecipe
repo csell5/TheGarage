@@ -26,7 +26,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
-      <Modified>2013-04-22T02:33:58.465</Modified>
+      <Modified>2013-04-22T20:41:27.072</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\images\black-car-wallpaper.png">
       <PackagePath>images\black-car-wallpaper.png</PackagePath>
@@ -71,7 +71,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
-      <Modified>2013-04-22T20:09:02.437</Modified>
+      <Modified>2013-04-22T21:16:39.191</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery-2.0.0.intellisense.js">
       <PackagePath>Scripts\jquery-2.0.0.intellisense.js</PackagePath>

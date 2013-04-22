@@ -74,12 +74,6 @@ namespace SignalR.Sample.Hubs
             Clients.Client(ConsoleKey).ActivateSoftLock(command);
         }
 
-        [Obsolete("Moved to the onconnected for the connection", true)]
-        public void RequestStatus(string id)
-        {
-            Clients.Client(ConsoleKey).RequestStatus(id);
-        }
-
         public override Task OnConnected()
         {
             Clients.Client(ConsoleKey).RequestStatus(base.Context.ConnectionId);

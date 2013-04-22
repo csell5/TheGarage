@@ -28,8 +28,8 @@
 }
 
 .doorUnknown {
-    stroke: red; 
-    fill: darkgray;    
+    stroke: "#ffffff"; 
+    fill: "#010101";    
 }
 
 .lightsOff {
