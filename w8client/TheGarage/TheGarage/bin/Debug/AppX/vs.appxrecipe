@@ -1,11 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>MNICW530</Machine>
-    <WindowsUser>marknic</WindowsUser>
+    <Machine>CSELL-AIR</Machine>
+    <WindowsUser>Clark</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>3EC8D92F1443BAABABD786FE478506233CABE074F7351B27C23F5D8A01BC3C0F</RegisteredManifestChecksum>
+    <RegisteredManifestChecksum>9DF116E5AD6FBBAE65D7059E9CAAA41BE75FA1C531E4973D3D10DD3602E345C9</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>5093849c-b29e-42c2-b2e3-4da016224eaa_1.0.0.0_neutral__rhg4v0b7gygzg</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>5093849c-b29e-42c2-b2e3-4da016224eaa_rhg4v0b7gygzg!App</RegisteredUserModeAppID>
     <RegisteredPackageID>5093849c-b29e-42c2-b2e3-4da016224eaa</RegisteredPackageID>
@@ -13,105 +13,105 @@
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-04-22T13:12:57.056</Modified>
+      <Modified>2013-04-22T18:44:29.928</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\css\default.css">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\css\default.css">
       <PackagePath>css\default.css</PackagePath>
-      <Modified>2013-04-22T13:12:18.227</Modified>
+      <Modified>2013-04-20T19:48:29.853</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\pages\home\home.css">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
-      <Modified>2013-04-22T13:12:18.256</Modified>
+      <Modified>2013-04-22T02:33:58.465</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\images\black-car-wallpaper.png">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\images\black-car-wallpaper.png">
       <PackagePath>images\black-car-wallpaper.png</PackagePath>
-      <Modified>2013-04-22T13:12:18.232</Modified>
+      <Modified>2013-04-21T02:23:30.156</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\images\logo.png">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-04-22T13:12:18.239</Modified>
+      <Modified>2013-02-14T01:24:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-04-22T13:12:18.240</Modified>
+      <Modified>2013-02-14T01:24:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\images\splashscreen.png">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-04-22T13:12:18.241</Modified>
+      <Modified>2013-04-20T19:28:16.803</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\images\storelogo.png">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-04-22T13:12:18.241</Modified>
+      <Modified>2013-02-14T01:24:38.000</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\images\widelogo.png">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\images\widelogo.png">
       <PackagePath>images\widelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-04-22T13:12:18.242</Modified>
+      <Modified>2013-04-20T19:40:33.569</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\images\garage.svg">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\images\garage.svg">
       <PackagePath>images\garage.svg</PackagePath>
-      <Modified>2013-04-22T13:12:18.238</Modified>
+      <Modified>2013-04-21T01:44:53.841</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\js\default.js">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2013-04-22T13:12:18.245</Modified>
+      <Modified>2013-04-20T19:02:06.034</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\js\navigator.js">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
-      <Modified>2013-04-22T13:12:18.250</Modified>
+      <Modified>2013-04-20T19:02:06.088</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\pages\home\home.js">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
-      <Modified>2013-04-22T13:12:18.260</Modified>
+      <Modified>2013-04-22T20:00:54.878</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery-2.0.0.intellisense.js">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery-2.0.0.intellisense.js">
       <PackagePath>Scripts\jquery-2.0.0.intellisense.js</PackagePath>
-      <Modified>2013-04-22T13:12:18.119</Modified>
+      <Modified>2013-04-20T19:07:46.192</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery-2.0.0.js">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery-2.0.0.js">
       <PackagePath>Scripts\jquery-2.0.0.js</PackagePath>
-      <Modified>2013-04-22T13:12:18.170</Modified>
+      <Modified>2013-04-20T19:07:46.559</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery-2.0.0.min.js">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery-2.0.0.min.js">
       <PackagePath>Scripts\jquery-2.0.0.min.js</PackagePath>
-      <Modified>2013-04-22T13:12:18.198</Modified>
+      <Modified>2013-04-20T19:07:46.468</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery.signalR-1.0.1.js">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery.signalR-1.0.1.js">
       <PackagePath>Scripts\jquery.signalR-1.0.1.js</PackagePath>
-      <Modified>2013-04-22T13:12:18.211</Modified>
+      <Modified>2013-04-20T19:07:36.330</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery.signalR-1.0.1.min.js">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery.signalR-1.0.1.min.js">
       <PackagePath>Scripts\jquery.signalR-1.0.1.min.js</PackagePath>
-      <Modified>2013-04-22T13:12:18.220</Modified>
+      <Modified>2013-04-20T19:07:36.262</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\packages.config">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\packages.config">
       <PackagePath>packages.config</PackagePath>
-      <Modified>2013-04-22T13:12:18.253</Modified>
+      <Modified>2013-04-20T19:07:46.629</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\pages\home\home.html">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
-      <Modified>2013-04-22T13:12:18.259</Modified>
+      <Modified>2013-04-22T18:57:37.217</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\default.html">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\default.html">
       <PackagePath>default.html</PackagePath>
-      <Modified>2013-04-22T13:12:18.229</Modified>
+      <Modified>2013-04-20T19:02:06.041</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery-2.0.0.min.map">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery-2.0.0.min.map">
       <PackagePath>Scripts\jquery-2.0.0.min.map</PackagePath>
-      <Modified>2013-04-22T13:12:18.202</Modified>
+      <Modified>2013-04-20T19:07:46.378</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-04-22T13:12:56.475</Modified>
+      <Modified>2013-04-22T18:44:29.573</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

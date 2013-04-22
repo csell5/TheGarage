@@ -9,9 +9,13 @@
         }
     });
 
+    var isInsideLightOn, isOutsideLightOn, isDoorOpen;
+
     function initSignalR() {
 
-        var signalRServer = "http://10.0.0.45:18628",
+        //TODO: add this to the screen so we don't have to recompile...
+
+        var signalRServer = "http://localhost:18628",
             hubName = "deviceCommunicationHub";
 
         var connection = $.hubConnection(signalRServer);
@@ -20,56 +24,113 @@
         connection.start().done(function () {
 
             $("#InsideButton, #Inside").click(function () {
-                proxy.invoke("XX", "")
+                if (isInsideLightOn) {
+                    proxy.invoke("ActivateLight", "0", "off");
+                } else {
+                    proxy.invoke("ActivateLight", "0", "on");
+                }
             });
 
             $("#OutsideButtonRight, #OutsideRight, #OutsideButtonLeft, #OutsideLeft").click(function () {
-                proxy.invoke("XX", "")
+                if (isOutsideLightOn) {
+                    proxy.invoke("ActivateLight", "1", "off");
+                } else {
+                    proxy.invoke("ActivateLight", "1", "on");
+                }
             });
 
-            $("#Door").click(function () {
-                proxy.invoke("XX", "")
+            $("#Door, #carBackground").click(function () {
+                if (isDoorOpen) {
+                    proxy.invoke("ActivateDoor", "0", "close");
+                } else {
+                    proxy.invoke("ActivateDoor", "0", "open");
+                }
+
+                //TODO: THERE IS A TOGGLE STATE
             });
 
         });
 
 
         //DOOR
-        proxy.on('popNotification', function (msg) {
-            $('#Door').removeClass('doorClosed');
-            $('#Door').attr('class', 'doorOpen');
+        proxy.on('OnDoorChange', function (id, status) {
+            
+            switch (status) {
+                case 'up':
+                    isDoorOpen = true;
+
+                    $('#Door').removeClass('doorClosed');
+                    $('#Door').attr('class', 'doorOpen');
+
+                    break;
+
+                case 'down':
+                    isDoorOpen = false;
+
+                    $('#Door').removeClass('doorOpen');
+                    $('#Door').attr('class', 'doorClosed');
+
+                    break;
+
+                case 'unknown':
+                    //TODO: MAKE IT BLINK two colors
+
+                    break;
+                default:
+            };
+
         });
 
         //Inside Lights toggle
-        proxy.on('XXX', function (id, cmd) {
+        proxy.on('OnLightChange', function (id, status) {
 
-            switch(cmd)
-            {
-                case 'on':
+            if ( id === 0) {
+                switch (status) {
+                    case 'on':
+                        isInsideLightOn = true;
 
-                    $('#Inside').removeClass('lightsOff');
-                    $('#Inside').attr('class', 'lightsOn');
+                        $('#Inside').removeClass('lightsOff');
+                        $('#Inside').attr('class', 'lightsOn');
 
-                    break;
-                case 'off':
+                        break;
+                        //WHAT HERE
 
-                    $('#Inside').removeClass('lightsOn');
-                    $('#Inside').attr('class', 'lightsOff');
+                    case 'off':
+                        isInsideLightOn = false;
 
-                    break;
+                        $('#Inside').removeClass('lightsOn');
+                        $('#Inside').attr('class', 'lightsOff');
 
-                default:
-                    //TODO: this should be RED for an ERROR
-                    $('#Inside').removeClass('lightsOn');
-                    $('#Inside').attr('class', 'lightsOff');
+                        break;
+
+                    default:
+                        //WHAT HERE
+                };
+
+            } else if (id === 1) {
+
+                switch (status) {
+                    case 'on':
+                        isOutsideLightOn = true;
+
+                        $('#OutsideRight, #OutsideLeft').removeClass('lightsOff');
+                        $('#OutsideRight, #OutsideLeft').attr('class', 'lightsOn');
+
+                        break;
+
+                    case 'off':
+                        isOutsideLightOn = false;
+
+                        $('#OutsideRight, #OutsideLeft').removeClass('lightsOn');
+                        $('#OutsideRight, #OutsideLeft').attr('class', 'lightsOff');
+
+                        break;
+
+                    default:
+                        //WHAT HERE
+                };
             }
 
-        });
-
-        //OUTSIDE
-        proxy.on("", function (msg) {
-            $('#OutsideRight, #OutsideLeft').removeClass('lightsOff');
-            $('#OutsideRight, #OutsideLeft').attr('class', 'lightsOn');
         });
 
     }

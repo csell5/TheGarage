@@ -1,87 +1,87 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
-    <Machine>MNICW530</Machine>
-    <WindowsUser>marknic</WindowsUser>
+    <Machine>CSELL-AIR</Machine>
+    <WindowsUser>Clark</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\css\default.css">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\css\default.css">
       <PackagePath>css\default.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\pages\home\home.css">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\pages\home\home.css">
       <PackagePath>pages\home\home.css</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\images\black-car-wallpaper.png">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\images\black-car-wallpaper.png">
       <PackagePath>images\black-car-wallpaper.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\images\logo.png">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\images\logo.png">
       <PackagePath>images\logo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\images\smalllogo.png">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\images\smalllogo.png">
       <PackagePath>images\smalllogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\images\splashscreen.png">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\images\splashscreen.png">
       <PackagePath>images\splashscreen.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\images\storelogo.png">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\images\storelogo.png">
       <PackagePath>images\storelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\images\widelogo.png">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\images\widelogo.png">
       <PackagePath>images\widelogo.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\images\garage.svg">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\images\garage.svg">
       <PackagePath>images\garage.svg</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\js\default.js">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\js\default.js">
       <PackagePath>js\default.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\js\navigator.js">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\pages\home\home.js">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\pages\home\home.js">
       <PackagePath>pages\home\home.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery-2.0.0.intellisense.js">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery-2.0.0.intellisense.js">
       <PackagePath>Scripts\jquery-2.0.0.intellisense.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery-2.0.0.js">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery-2.0.0.js">
       <PackagePath>Scripts\jquery-2.0.0.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery-2.0.0.min.js">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery-2.0.0.min.js">
       <PackagePath>Scripts\jquery-2.0.0.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery.signalR-1.0.1.js">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery.signalR-1.0.1.js">
       <PackagePath>Scripts\jquery.signalR-1.0.1.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery.signalR-1.0.1.min.js">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery.signalR-1.0.1.min.js">
       <PackagePath>Scripts\jquery.signalR-1.0.1.min.js</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\packages.config">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\packages.config">
       <PackagePath>packages.config</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\pages\home\home.html">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\pages\home\home.html">
       <PackagePath>pages\home\home.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\default.html">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\default.html">
       <PackagePath>default.html</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery-2.0.0.min.map">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\Scripts\jquery-2.0.0.min.map">
       <PackagePath>Scripts\jquery-2.0.0.min.map</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
     </AppxPackagedFile>
   </ItemGroup>
