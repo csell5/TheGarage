@@ -4,6 +4,7 @@ using SignalR.Sample.HubModels;
 using System;
 using System.Configuration;
 using System.Threading.Tasks;
+using theGarage.PushNotifications;
 
 namespace SignalR.Sample.Hubs
 {
@@ -13,6 +14,8 @@ namespace SignalR.Sample.Hubs
         public byte[] InitializationVector { get; set; }
         public string Password { get; set; }
         public static string ConsoleKey { get; set; }
+
+        NotificationBroker _notificationBroker = new NotificationBroker();
 
         public DeviceCommunicationHub()
         {
@@ -47,11 +50,24 @@ namespace SignalR.Sample.Hubs
         public void OnDoorChange(int id, string command)
         {
             Clients.All.OnDoorChange(id, command);
+            _notificationBroker.Send("Garage Door", command);
+
         }
 
         public void OnLightChange(int id, string command)
         {
             Clients.All.OnLightChange(id, command);
+
+            switch (id)
+            {
+                case 0:
+                    _notificationBroker.Send("Inside Lights", command);
+                    break;
+
+                case 1:
+                    _notificationBroker.Send("Outside Lights", command);
+                    break;
+            }
         }
 
         public void OnLockChange(string name, bool garage, bool hardlock, bool softlock)

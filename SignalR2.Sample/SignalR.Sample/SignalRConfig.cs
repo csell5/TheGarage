@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 ﻿using System;
 using System.Diagnostics;
 using Microsoft.AspNet.SignalR;
+=======
+﻿using Microsoft.AspNet.SignalR;
+>>>>>>> d4c3840cc1d0d1447f37f443c6e9c6d3b392267b
 using Microsoft.AspNet.SignalR.Hubs;
+using System.Diagnostics;
 
 namespace SignalR.Sample
 {

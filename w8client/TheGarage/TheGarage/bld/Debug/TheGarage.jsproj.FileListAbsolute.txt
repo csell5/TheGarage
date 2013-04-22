@@ -20,3 +20,7 @@ C:\source\github\TheGarage\w8client\TheGarage\TheGarage\bld\Debug\resources.resf
 C:\source\github\TheGarage\w8client\TheGarage\TheGarage\bld\Debug\pri.resfiles
 C:\source\github\TheGarage\w8client\TheGarage\TheGarage\bld\Debug\LanguageQualifiers.txt
 C:\source\github\TheGarage\w8client\TheGarage\TheGarage\bld\Debug\ProjectArchitectures.txt
+C:\source\github\TheGarage\w8client\TheGarage\TheGarage\bld\Debug\priconfig.xml.intermediate
+C:\source\github\TheGarage\w8client\TheGarage\TheGarage\bld\Debug\layout.resfiles.intermediate
+C:\source\github\TheGarage\w8client\TheGarage\TheGarage\bld\Debug\resources.resfiles.intermediate
+C:\source\github\TheGarage\w8client\TheGarage\TheGarage\bld\Debug\pri.resfiles.intermediate
