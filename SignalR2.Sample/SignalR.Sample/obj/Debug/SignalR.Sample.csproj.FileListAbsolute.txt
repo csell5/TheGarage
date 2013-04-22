@@ -80,6 +80,5 @@ C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\bin\Microsoft.AspNet.S
 C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
 C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\bin\Microsoft.Owin.Host.SystemWeb.xml
 C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\bin\Newtonsoft.Json.xml
-C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\obj\Debug\SignalR.Sample.csprojResolveAssemblyReference.cache
 C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\obj\Debug\SignalR.Sample.dll
 C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\obj\Debug\SignalR.Sample.pdb

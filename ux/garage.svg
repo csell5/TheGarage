@@ -183,14 +183,14 @@
 		558,243.875 558,441 512.987,441 512.938,288 153,288 153,441 108,441 108,234 103.875,234 539.876,234 	"/>
 </g>
 <g id="Door">
-	<g id="Inner_Door">
+	<g id="Inner_Door" display="none">
 		
-			<line fill="none" stroke="#000000" stroke-width="9" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="153" y1="441" x2="333" y2="324.75"/>
+			<line display="inline" fill="none" stroke="#000000" stroke-width="9" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="153" y1="441" x2="333" y2="324.75"/>
 		
-			<line fill="none" stroke="#000000" stroke-width="9" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="333" y1="324.75" x2="513" y2="441"/>
+			<line display="inline" fill="none" stroke="#000000" stroke-width="9" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="333" y1="324.75" x2="513" y2="441"/>
 		
-			<line fill="none" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="333" y1="288" x2="333" y2="437.875"/>
-		<g display="none">
+			<line display="inline" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="333" y1="288" x2="333" y2="437.875"/>
+		<g>
 			<path display="inline" d="M162,314c0,0,0.158-0.088,0.465-0.258c0.307-0.165,0.761-0.436,1.354-0.73
 				c1.187-0.614,2.927-1.474,5.142-2.428c2.215-0.979,4.904-2.044,7.989-3.153c1.542-0.579,3.184-1.071,4.914-1.658
 				c1.73-0.568,3.55-1.056,5.448-1.626c1.898-0.544,3.876-1.004,5.923-1.539c2.047-0.512,4.163-0.921,6.338-1.407
@@ -204,7 +204,7 @@
 				c-9.492,0.042-19.617,0.087-29.742,0.133c-10.125-0.045-20.25-0.09-29.742-0.132c-9.492-0.033-18.352-0.223-25.945-0.305
 				c-7.594-0.086-13.922-0.309-18.352-0.395C164.531,316.062,162,316,162,316l-1-0.024v-1.421L162,314z"/>
 		</g>
-		<g display="none">
+		<g>
 			<path display="inline" d="M342,314c0,0,0.158-0.088,0.465-0.258c0.307-0.165,0.762-0.436,1.354-0.73
 				c1.187-0.614,2.927-1.474,5.142-2.428c2.215-0.979,4.904-2.044,7.989-3.153c1.542-0.579,3.184-1.071,4.914-1.658
 				c1.73-0.568,3.55-1.056,5.448-1.626c1.898-0.544,3.876-1.004,5.923-1.539c2.047-0.512,4.163-0.921,6.338-1.407
@@ -219,10 +219,13 @@
 				c-7.594-0.086-13.922-0.309-18.352-0.395C344.531,316.062,342,316,342,316l-1-0.024v-1.421L342,314z"/>
 		</g>
 		
-			<line fill="none" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="153" y1="324" x2="513" y2="324"/>
+			<line display="inline" fill="none" stroke="#000000" stroke-width="4" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" x1="153" y1="324" x2="513" y2="324"/>
 	</g>
 	
-		<rect x="153" y="288" fill="none" stroke="#000000" stroke-width="9" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" width="360.506" height="153.091"/>
+		<rect x="153" y="288" display="none" fill="none" stroke="#000000" stroke-width="9" stroke-linecap="square" stroke-linejoin="round" stroke-miterlimit="10" width="360.506" height="153.091"/>
+	<g id="DoorClickPath">
+		<rect x="153" y="288" opacity="0.1" fill="#F1F2F2" stroke="#E6E7E8" stroke-miterlimit="10" width="359.987" height="153"/>
+	</g>
 </g>
 <g id="Guides" display="none">
 </g>
