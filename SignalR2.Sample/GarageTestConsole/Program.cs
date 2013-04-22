@@ -108,7 +108,7 @@ namespace GarageTestConsole
 
             for (var i = 0; i < LastGarageStatus.Light.Length; i++)
             {
-                hubContext.Clients.All.OnDoorChange(i, LastGarageStatus.Light[i].Status);
+                hubContext.Clients.All.OnLightChange(i, LastGarageStatus.Light[i].Status);
             }
         }
 

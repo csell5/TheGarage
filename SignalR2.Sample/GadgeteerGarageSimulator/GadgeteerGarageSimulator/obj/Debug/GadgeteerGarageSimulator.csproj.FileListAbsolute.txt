@@ -1,0 +1,165 @@
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\GadgeteerGarageSimulator.csprojResolveAssemblyReference.cache
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\TinyCLR_DebugReferences.cache
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\GadgeteerGarageSimulator.Resources.resources
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\GadgeteerGarageSimulator.csproj.GenerateResource.Cache
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\GadgeteerGarageSimulator.Resources.tinyresources
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\TinyResGen.cache
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\le\GadgeteerGarageSimulator.exe
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\be\GadgeteerGarageSimulator.exe
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\le\GadgeteerGarageSimulator.pdb
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\be\GadgeteerGarageSimulator.pdb
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GadgeteerGarageSimulator.exe
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GadgeteerGarageSimulator.pdb
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\le\GadgeteerGarageSimulator.pe
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\le\GadgeteerGarageSimulator.pdbx
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\be\GadgeteerGarageSimulator.pe
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\be\GadgeteerGarageSimulator.pdbx
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\Gadgeteer.pe
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZCerberus.pe
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GTM.GHIElectronics.IRReceiver.pe
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GTM.GHIElectronics.UsbClientDP.pe
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GHI.OSHW.Hardware.pe
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\Gadgeteer.pe
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZCerberus.pe
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GTM.GHIElectronics.IRReceiver.pe
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GTM.GHIElectronics.UsbClientDP.pe
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GHI.OSHW.Hardware.pe
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\Gadgeteer.pdbx
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZCerberus.pdbx
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GTM.GHIElectronics.IRReceiver.pdbx
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GTM.GHIElectronics.UsbClientDP.pdbx
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GHI.OSHW.Hardware.pdbx
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\Gadgeteer.pdbx
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZCerberus.pdbx
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GTM.GHIElectronics.IRReceiver.pdbx
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GTM.GHIElectronics.UsbClientDP.pdbx
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GHI.OSHW.Hardware.pdbx
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\Gadgeteer.dll
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GHIElectronics.Gadgeteer.FEZCerberus.dll
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GTM.GHIElectronics.IRReceiver.dll
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GTM.GHIElectronics.UsbClientDP.dll
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GHI.OSHW.Hardware.dll
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\Gadgeteer.pdb
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\Gadgeteer.xml
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GHIElectronics.Gadgeteer.FEZCerberus.pdb
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GHIElectronics.Gadgeteer.FEZCerberus.xml
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GTM.GHIElectronics.IRReceiver.pdb
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GTM.GHIElectronics.IRReceiver.xml
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GTM.GHIElectronics.UsbClientDP.pdb
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GTM.GHIElectronics.UsbClientDP.xml
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GHI.OSHW.Hardware.xml
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\be\GadgeteerGarageSimulator.pe
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\be\GadgeteerGarageSimulator.pdbx
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\le\GadgeteerGarageSimulator.pe
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\le\GadgeteerGarageSimulator.pdbx
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\GadgeteerGarageSimulator.exe
+C:\_TfsProjectsVS2010\Robotics\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\GadgeteerGarageSimulator.pdb
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\le\GadgeteerGarageSimulator.exe
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\be\GadgeteerGarageSimulator.exe
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\le\GadgeteerGarageSimulator.pdb
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\be\GadgeteerGarageSimulator.pdb
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GadgeteerGarageSimulator.exe
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GadgeteerGarageSimulator.pdb
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\le\GadgeteerGarageSimulator.pe
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\le\GadgeteerGarageSimulator.pdbx
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\be\GadgeteerGarageSimulator.pe
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\be\GadgeteerGarageSimulator.pdbx
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\Gadgeteer.pe
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZCerberus.pe
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GTM.GHIElectronics.IRReceiver.pe
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GTM.GHIElectronics.UsbClientDP.pe
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GHI.OSHW.Hardware.pe
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\Gadgeteer.pe
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZCerberus.pe
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GTM.GHIElectronics.IRReceiver.pe
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GTM.GHIElectronics.UsbClientDP.pe
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GHI.OSHW.Hardware.pe
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\Gadgeteer.pdbx
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZCerberus.pdbx
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GTM.GHIElectronics.IRReceiver.pdbx
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GTM.GHIElectronics.UsbClientDP.pdbx
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GHI.OSHW.Hardware.pdbx
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\Gadgeteer.pdbx
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZCerberus.pdbx
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GTM.GHIElectronics.IRReceiver.pdbx
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GTM.GHIElectronics.UsbClientDP.pdbx
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GHI.OSHW.Hardware.pdbx
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\Gadgeteer.dll
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GHIElectronics.Gadgeteer.FEZCerberus.dll
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GTM.GHIElectronics.IRReceiver.dll
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GTM.GHIElectronics.UsbClientDP.dll
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GHI.OSHW.Hardware.dll
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\Gadgeteer.pdb
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\Gadgeteer.xml
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GHIElectronics.Gadgeteer.FEZCerberus.pdb
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GHIElectronics.Gadgeteer.FEZCerberus.xml
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GTM.GHIElectronics.IRReceiver.pdb
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GTM.GHIElectronics.IRReceiver.xml
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GTM.GHIElectronics.UsbClientDP.pdb
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GTM.GHIElectronics.UsbClientDP.xml
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GHI.OSHW.Hardware.xml
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\GadgeteerGarageSimulator.csprojResolveAssemblyReference.cache
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\TinyCLR_DebugReferences.cache
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\GadgeteerGarageSimulator.Resources.resources
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\GadgeteerGarageSimulator.csproj.GenerateResource.Cache
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\GadgeteerGarageSimulator.Resources.tinyresources
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\TinyResGen.cache
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\GadgeteerGarageSimulator.exe
+C:\Garage Application Development\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\GadgeteerGarageSimulator.pdb
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\le\GadgeteerGarageSimulator.exe
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\be\GadgeteerGarageSimulator.exe
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\le\GadgeteerGarageSimulator.pdb
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\be\GadgeteerGarageSimulator.pdb
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GadgeteerGarageSimulator.exe
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GadgeteerGarageSimulator.pdb
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\le\GadgeteerGarageSimulator.pe
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\le\GadgeteerGarageSimulator.pdbx
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\be\GadgeteerGarageSimulator.pe
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\be\GadgeteerGarageSimulator.pdbx
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\Gadgeteer.pe
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZCerberus.pe
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GTM.GHIElectronics.IRReceiver.pe
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GTM.GHIElectronics.UsbClientDP.pe
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GHI.OSHW.Hardware.pe
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\Gadgeteer.pe
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZCerberus.pe
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GTM.GHIElectronics.IRReceiver.pe
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GTM.GHIElectronics.UsbClientDP.pe
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GHI.OSHW.Hardware.pe
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\Gadgeteer.pdbx
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GHIElectronics.Gadgeteer.FEZCerberus.pdbx
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GTM.GHIElectronics.IRReceiver.pdbx
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GTM.GHIElectronics.UsbClientDP.pdbx
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\LE\GHI.OSHW.Hardware.pdbx
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\Gadgeteer.pdbx
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GHIElectronics.Gadgeteer.FEZCerberus.pdbx
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GTM.GHIElectronics.IRReceiver.pdbx
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GTM.GHIElectronics.UsbClientDP.pdbx
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\BE\GHI.OSHW.Hardware.pdbx
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\Gadgeteer.dll
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GHIElectronics.Gadgeteer.FEZCerberus.dll
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GTM.GHIElectronics.IRReceiver.dll
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GTM.GHIElectronics.UsbClientDP.dll
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GHI.OSHW.Hardware.dll
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\Gadgeteer.pdb
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\Gadgeteer.xml
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GHIElectronics.Gadgeteer.FEZCerberus.pdb
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GHIElectronics.Gadgeteer.FEZCerberus.xml
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GTM.GHIElectronics.IRReceiver.pdb
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GTM.GHIElectronics.IRReceiver.xml
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GTM.GHIElectronics.UsbClientDP.pdb
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GTM.GHIElectronics.UsbClientDP.xml
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\bin\Debug\GHI.OSHW.Hardware.xml
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\ResolveAssemblyReference.cache
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\TinyCLR_DebugReferences.cache
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\GadgeteerGarageSimulator.Resources.resources
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\GenerateResource.read.1.tlog
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\GenerateResource.write.1.tlog
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\GadgeteerGarageSimulator.Resources.tinyresources
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\TinyResGen.cache
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\be\GadgeteerGarageSimulator.pe
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\be\GadgeteerGarageSimulator.pdbx
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\le\GadgeteerGarageSimulator.pe
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\le\GadgeteerGarageSimulator.pdbx
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\GadgeteerGarageSimulator.exe
+F:\GadgeteerGarageSimulator\GadgeteerGarageSimulator\obj\Debug\GadgeteerGarageSimulator.pdb
