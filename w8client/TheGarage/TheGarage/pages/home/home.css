@@ -27,6 +27,11 @@
     fill: "#ffffff";    
 }
 
+.doorUnknown {
+    stroke: red; 
+    fill: darkgray;    
+}
+
 .lightsOff {
     fill: lightgrey;
     stroke: "none";

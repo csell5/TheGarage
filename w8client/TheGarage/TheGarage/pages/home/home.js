@@ -60,6 +60,7 @@
                     isDoorOpen = true;
 
                     $('#Door').removeClass('doorClosed');
+                    $('#Door').removeClass('doorUnknown');
                     $('#Door').attr('class', 'doorOpen');
 
                     break;
@@ -68,12 +69,16 @@
                     isDoorOpen = false;
 
                     $('#Door').removeClass('doorOpen');
+                    $('#Door').removeClass('doorUnknown');
                     $('#Door').attr('class', 'doorClosed');
 
                     break;
 
                 case 'unknown':
                     //TODO: MAKE IT BLINK two colors
+                    $('#Door').removeClass('doorOpen');
+                    $('#Door').removeClass('doorClosed')
+                    $('#Door').attr('class', 'doorUnknown');
 
                     break;
                 default:

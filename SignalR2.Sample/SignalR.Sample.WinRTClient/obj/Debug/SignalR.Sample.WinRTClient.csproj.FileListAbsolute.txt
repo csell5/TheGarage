@@ -74,3 +74,41 @@ C:\Garage Application Development\SignalR2.Sample\SignalR.Sample.WinRTClient\obj
 C:\Garage Application Development\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\pri.resfiles
 C:\Garage Application Development\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\LanguageQualifiers.txt
 C:\Garage Application Development\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\ProjectArchitectures.txt
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\bin\Debug\SignalR.Sample.WinRTClient.exe
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\bin\Debug\SignalR.Sample.WinRTClient.pdb
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\bin\Debug\resources.pri
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\bin\Debug\AppxManifest.xml
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\bin\Debug\SignalR.Sample.WinRTClient.build.appxrecipe
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\bin\Debug\Newtonsoft.Json.dll
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\bin\Debug\Newtonsoft.Json.xml
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\SignalR.Sample.WinRTClient.csprojResolveAssemblyReference.cache
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\App.g.i.cs
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\App.g.cs
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\Common\StandardStyles.g.i.cs
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\Common\StandardStyles.g.cs
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\MainPage.g.i.cs
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\MainPage.g.cs
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\XamlTypeInfo.g.cs
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\App.xaml
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\Common\StandardStyles.xaml
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\MainPage.xaml
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\SignalR.Sample.WinRTClient.exe
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\SignalR.Sample.WinRTClient.pdb
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\Microsoft.AspNet.SignalR.Client\en-US\Microsoft.AspNet.SignalR.Client.Resources.resw
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\SignalR.Sample.WinRTClient.csproj.GenerateResource.Cache
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\Microsoft.AspNet.SignalR.Client\priconfig.xml.intermediate
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\Microsoft.AspNet.SignalR.Client\Resources.resfiles.intermediate
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\Microsoft.AspNet.SignalR.Client.pri
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\Microsoft.AspNet.SignalR.Client\LanguageQualifiers.txt
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\priconfig.xml.intermediate
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\layout.resfiles.intermediate
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\resources.resfiles.intermediate
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\pri.resfiles.intermediate
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\priconfig.xml
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\layout.resfiles
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\resources.resfiles
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\pri.resfiles
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\LanguageQualifiers.txt
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\obj\Debug\ProjectArchitectures.txt
