@@ -1,1 +1,0 @@
-C:\_GIT\TheGarage\SignalR2.Sample\SignalR.Sample.WinRTClient\SignalR.Sample.WinRTClient.csproj;neutral
