@@ -112,22 +112,7 @@ namespace GarageTestConsole
             }
         }
 
-        //static void Broadcast(FromServerToClientData data)
-        //{
-        //    Console.WriteLine("Broadcast: {0} {1} {2}", data.Now, data.Integer, data.Text);
-        //}
-
-        //static void BroadcastToGroup(string value)
-        //{
-        //    Console.WriteLine("BroadcastToGroup: {0}", value);
-        //}
-
-        //static void OthersCallback(FromServerToClientData data)
-        //{
-        //    Console.WriteLine("Command Called: {0} - {1}", data.Text, data.Command);
-
-        //    //HttpHelper.SendJsonCommand(Application.DeviceList["Garage 1"].DeviceUrl + "trigger", data.Command);
-        //}
+        
 
         static void ReadConfiguration()
         {

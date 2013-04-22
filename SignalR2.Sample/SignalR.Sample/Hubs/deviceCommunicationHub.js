@@ -116,7 +116,7 @@
 
         $.connection.deviceCommunicationHub.server.joinGroup('WebApp');
 
-        $.connection.deviceCommunicationHub.server.requestStatus('1234');
+        //$.connection.deviceCommunicationHub.server.requestStatus('1234');
     });
 
 });
