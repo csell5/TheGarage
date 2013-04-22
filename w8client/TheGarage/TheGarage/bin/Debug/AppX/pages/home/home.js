@@ -39,7 +39,7 @@
                 }
             });
 
-            $("#Door, #carBackground").click(function () {
+            $("#Door, #DoorClickPath").click(function () {
                 if (isDoorOpen) {
                     proxy.invoke("ActivateDoor", "0", "close");
                 } else {
