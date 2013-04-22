@@ -13,11 +13,14 @@
             });
 
             $("#OutsideButtonRight, #OutsideRight, #OutsideButtonLeft, #OutsideLeft").click(function () {
-                var x = "ASDF";
+                $('#OutsideRight, #OutsideLeft').removeClass('lightsOff');
+                $('#OutsideRight, #OutsideLeft').attr('class', 'lightsOn');
+
             });
 
             $("#InsideButton, #Inside").click(function () {
-                var x = "ASD";
+                $('#Inside').removeClass('lightsOff');
+                $('#Inside').attr('class', 'lightsOn');
             });
 
         }

@@ -27,6 +27,16 @@
     fill: "#ffffff";    
 }
 
+.lightsOff {
+    fill: lightgrey;
+    stroke: "none";
+}
+
+.lightsOn {
+    fill: yellow;
+    stroke: "none";
+}
+
 #carBackground{
 	
 	-ms-grid-column: 3;
