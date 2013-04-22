@@ -1,0 +1,249 @@
+﻿
+header, footer, article, nav, section, aside, time, hgroup {
+    display : block;
+}
+html, body, header, footer, article, nav, section, aside, time, h1, h2, h3, p, a, ul, li, dl, dd, dt, table, thead, tfoot, tbody, th, tr, td {
+    border : 0;
+    font : 12px/22px Verdana, sans-serif;
+    margin : 0;
+    outline : 0;
+    padding : 0;
+}
+
+/* BODY */
+BODY {
+    border-top : 10px solid #CCC;
+    color : #333;
+    }
+
+/* LINKS */
+A {
+    color : #1C60BD;
+    text-decoration : none;
+    }
+    A:HOVER {
+        color : #D21E70;
+        }
+    *:TARGET {
+        color : #FF9900;
+        }
+
+/* HEADLINES */
+H1, H3, H4, H5, H6 {
+    color : #D21E70;
+    font-weight : normal;
+    margin : 0 0 15px 0;
+    padding : 0 0 15px 0;
+    text-align : center;
+    }
+    H1 {
+        background : url(../images/hr.png) no-repeat 0 22px;
+        font-size : 15px;
+        padding : 0 0 10px 0;
+        }
+    H4, H5, H6 {
+        background : url(../images/hr2.png) no-repeat 0 22px;
+        font-size : 14px;
+        margin : 0 0 10px 0;
+        width : 250px;
+        }
+
+/* BORDER RADIUS */
+.highlight-1, .highlight-2, .highlight-3, footer, .meta, .meta li a, article form, pre code {
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    border-radius: 4px;
+}
+
+/* Header */
+header {
+    background : url(../images/hdr.jpg) no-repeat 0 0;
+    background-image: -webkit-linear-gradient(#aaddaa, #ffffff);
+    background-image: -moz-linear-gradient(#aaddaa, #ffffff);
+    background-image: -o-linear-gradient(#aaddaa, #ffffff);
+    background-image: linear-gradient(#aaddaa, #ffffff);
+    height : 170px;
+    padding : 0 10px;
+    position : relative;
+    }
+    header a {
+        color : #555;
+        font-size : 24px;
+        left : 100px;
+        position : absolute;
+        top : 30px;
+        }
+        header a strong {
+            color : #666;
+            font-weight : normal;
+            }
+    header a:hover, header a:hover strong {
+        color : #D21E70;
+        }
+    header p {
+        color : #333;
+        left : 100px;
+        position : absolute;
+        top : 50px;
+        }
+
+/* Article */
+article {
+    float : right;
+    height : auto;
+    width : 540px;
+    }
+    article p {
+        margin : 0 0 20px 0;
+        }
+    article img {
+        background : #FFF;
+        border : 1px solid #A9A796;
+        float : left;
+        margin : 2px 10px 2px 0;
+        padding : 1px;
+        }
+
+/* Highlighted Paragraphs */
+.highlight-1, .highlight-2, .highlight-3 {
+    padding : 5px 10px;
+    }
+    .highlight-1 {
+        background : #FFCCCC;
+        border : 1px dotted #FF9966;
+        }
+    .highlight-2 {
+        background : #FFFF99;
+        border : 1px dotted #FFCC33;
+        }
+    .highlight-3 {
+        background : #CCFF99;
+        border : 1px dotted #CCCC33;
+        }
+
+/* Table */
+    table {
+        width: 485px;
+        border-collapse : collapse;
+        text-align:left;
+        margin : 0 0 25px 25px;
+        }
+    caption {
+        border-bottom : 2px solid #BBB;
+        color : #333;
+        font-weight : bold;
+        margin : 0 0 1px 0;
+        }
+    tr:nth-child(odd) {
+        background : #FFF;
+        }
+    tr:nth-child(even) {
+        background : #E5E5E5;
+        }
+    tr:hover td {
+        background : #CCC;
+        color : #000;
+        }
+    td, th {
+        border-top : 1px solid #BBB;
+        min-width : 120px;
+        padding : 0 5px;
+        vertical-align:top;
+        }
+    th {
+        background-image : -webkit-gradient(linear,left bottom,left top,color-stop(0.50, #FFF),color-stop(1, #CCC));
+        background-image : -moz-linear-gradient(center bottom,#FFF 50%,#CCC 100%);
+        border-bottom : 2px solid #BBB;
+        color : #444;
+        font-size : 10px;
+        font-weight : bold;
+        }
+    td {
+        border-bottom : 1px solid #CCC;
+        font-size : 10px;
+        text-align: center;
+        }
+
+.settingsTable {
+        width: 485px;
+        border-collapse : collapse;
+        text-align:left;
+        margin: 0 0 0 15px;    
+}
+
+/* Lists */
+article ul, aside ul {
+    list-style : none;
+    margin : 0 0 20px 0;
+    }
+    article ul {
+        margin : 0 0 20px 23px;
+        }
+    article ul li {
+        padding : 0 0 0 17px;
+        }
+
+/* Navigation & Menu */
+nav ul {
+    list-style : none;
+    margin : 0 0 25px 5px;
+    }
+    nav li {
+        background : url(../images/ai1.png) no-repeat 0 8px;
+        padding : 0 0 0 15px;
+        }
+    nav li ul, aside li ul li ul {
+        margin : 0;
+        }
+    nav li li a {
+        font-size : 11px;
+        }
+    nav li li li a {
+        font-size : 10px;
+        }
+    nav li li li, aside li.active li li {
+        background : url(../images/ai8.png) no-repeat 0 10px;
+        }
+    nav li.active, aside li.active li {
+        background : url(../images/ai2.png) no-repeat 0 8px;
+        }
+
+/* Footer */
+footer {
+    background : #CCC;
+    background-image: -webkit-linear-gradient(#aaddaa, #ffffff);
+    background-image: -moz-linear-gradient(#aaddaa, #ffffff);
+    background-image: -o-linear-gradient(#aaddaa, #ffffff);
+    background-image: linear-gradient(#aaddaa, #ffffff);
+    clear : both;
+    margin : 0 0;
+    padding : 0 10px;
+    display: block;
+    position: fixed;
+    bottom: 0;
+    }
+    footer a, footer p {
+        color : #666;
+        display : inline;
+        font-size : 10px;
+        }
+
+
+    /*#voteInfo {display:block; bottom:0; left:0; width:100%; position:fixed; border:1px solid #888; padding:10px; text-align:center; font-weight:bold; color:black; background: white }
+* html #voteInfo {position:absolute;}*/
+
+
+/* Wrappers */
+#garageManagement, #garageControl {
+    margin: 0 auto;
+    position: relative;
+}
+#garageManagement {
+        width : 800px;
+    top: 0px;
+    left: 0px;
+}
+#garageControl {
+    overflow: hidden;
+}
+

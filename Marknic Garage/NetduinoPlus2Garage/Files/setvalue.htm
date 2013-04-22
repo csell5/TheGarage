@@ -1,0 +1,102 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Garage Controller</title>
+        <meta charset="UTF-8">
+        <meta name="description" content="Marknic Garage Controller">
+        <link rel="stylesheet" href="content/garage.css">
+        <script src="scripts/jquery-1.7.1.min.js"></script>
+        <script src="scripts/jquery.validate.min.js"></script>
+        <script src="scripts/garage.setup.js"></script>
+    </head>
+<body>
+	<div id="garageManagement">
+		<header>
+			<a href="/" title="Go to Homepage"><strong>Garage Door and Light Controller</strong></a>
+			<p>Management System</p>
+		</header>
+		<div id="garageControl">
+			<article>
+				<h1>Garage Control Data</h1>
+				
+			    <form id="garageSetupForm" method="post" action="setvalue.htm">
+			        <fieldset>
+			            <legend id="garageLegend">Garage Controller Setup:</legend>
+                
+			            <table class="settingsTable">
+			                <caption>Initial Garage Settings</caption>
+			                <tbody>
+			                    <tr>
+			                        <td>Garage Name:</td>
+			                        <td><input id="garageName" name="garageName" type="text" /></td>
+			                    </tr>
+			                    <tr>
+			                        <td>Locked:</td>
+			                        <td>
+			                            <select id="locked" name="locked">
+			                                <option value="true">True</option>
+			                                <option value="false" selected="selected">False</option>
+			                            </select>
+			                        </td>
+			                    </tr>
+			                </tbody>
+			            </table>
+			            <br />
+			            <table id="doorTable" class="settingsTable">
+			                <caption>Change Door Settings</caption>
+			                <tbody>
+			                    <tr>
+			                        <td>Door Count:</td>
+			                        <td>
+			                            <select id="doorCount" name="doorCount">
+			                                <option value="1" selected="selected">1</option>
+			                                <option value="2">2</option>
+			                            </select>
+			                        </td>
+			                    </tr>
+			                    <tr>
+			                        <td>Door #1 Name:</td>
+			                        <td><input id="doorName1" name="doorName1" type="text" /></td>
+			                    </tr>
+			                </tbody>
+			            </table>
+                        <br />
+			            <table id="lightTable" class="settingsTable">
+			                <caption>Change Light Settings</caption>
+			                <tbody>
+			                    <tr>
+			                        <td>Light Count:</td>
+			                        <td>
+			                            <select id="lightCount" name="lightCount">
+			                                <option value="0" selected="selected">0</option>
+			                                <option value="1">1</option>
+			                                <option value="2">2</option>
+			                            </select>
+			                        </td>
+			                    </tr>
+			                </tbody>
+			            </table>
+                        <div style="margin-right: auto; margin-left: 30px; display: block;">
+    			            <input id="submitGarageValues" type="submit" value="Save Values" />&nbsp;&nbsp;&nbsp;<input id="resetConfig" type="button" value="Reset Configuration" />
+                        </div>
+			        </fieldset>
+			    </form>
+				
+			</article>
+			<aside>
+				<nav>
+					<h4>Navigation</h4>
+					<ul>
+						<li><a href="/index.htm">Control Garage</a></li>
+						<li><a href="/setvalue.htm">Garage Setup</a></li>
+						<li><a href="/sd">Web Server Folder</a></li>
+					</ul>
+				</nav>
+			</aside>
+		</div>
+		<footer>
+			<p><a href="http://marknic.net/" title="">Copyright 2013 Marknic</a>.</p>
+		</footer>
+	</div>
+</html>
+

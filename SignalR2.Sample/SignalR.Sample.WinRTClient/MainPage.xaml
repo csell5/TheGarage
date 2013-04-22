@@ -1,0 +1,28 @@
+﻿<Page
+    x:Class="SignalR.Sample.WinRTClient.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SignalR.Sample.WinRTClient"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+    
+    <StackPanel Orientation="Vertical" Background="Black">
+        <TextBlock FontSize="16" >
+<LineBreak/>Quick steps to write a SignalR Windows Store client
+<LineBreak/>
+<LineBreak/><Run Text="  "/>1. Create a "Blank App" Windows Store project
+<LineBreak/><Run Text="  "/>2. Add NuGet packages:
+<LineBreak/><Run Text="      "/>- Microsoft ASP.NET SignalR Client
+<LineBreak/><Run Text="  "/>3. Create your data types (DataModel.cs)
+<LineBreak/><Run Text="  "/>4. Create your SignalR Client (Client.cs)
+<LineBreak/>
+        </TextBlock>
+        <TextBox Name="ResponseText" Text=""></TextBox>
+        <TextBox Name="ResponseAsyncText" Text=""></TextBox>
+        <TextBox Name="OthersCallbackText" Text=""></TextBox>
+        <TextBox Name="BroadcastText" Text=""></TextBox>
+        <TextBox Name="BroadcastToGroupText" Text=""></TextBox>
+    </StackPanel>
+
+</Page>

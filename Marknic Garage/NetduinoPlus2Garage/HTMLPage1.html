@@ -1,0 +1,27 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="http://ajax.aspnetcdn.com/ajax/jQuery/jquery-1.8.3.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+
+            $('input').click(function () {
+                var button = $(this);
+
+                var id = button.attr('id');
+                var command = button.attr('value');
+
+                alert('command: ' + command);
+            });
+        });
+
+    </script> 
+</head>
+    
+<body>
+    <input id="Button1" type="button" value="button" />
+</body>
+</html>

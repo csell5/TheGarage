@@ -1,0 +1,63 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>SignalR.Sample</title>
+    
+    <script src="Scripts/jquery-1.8.3.js"></script>
+    <script src="Scripts/jquery.signalR-1.0.1.js"></script>
+    <script src="signalr/hubs"></script>
+    <script src="Hubs/deviceCommunicationHub.js"></script>
+</head>
+<body>
+    <h1>Quick steps to write a SignalR web application</h1>
+    <pre>
+    1. Create an "ASP.NET Empty Web Application" project
+    2. Add NuGet packages:
+        - Microsoft ASP.NET SignalR SystemWeb
+        - Microsoft ASP.NET SignalR JS
+    3. Configure SignalR
+        - RouteConfig.cs
+        - SignalRConfig.cs
+        - Global.asax
+    4. Create your data types (DataModel.cs)
+    5. Create your SignalR Service (BackgroundThread.cs, SampleHub.cs)
+    6. Create your SignalR Client (SampleHub.js, index.html)
+    7. Launch web application and play with your real time app!
+    </pre>
+
+    <div id="ResponseText"></div>
+    <div id="ResponseAsyncText"></div>
+    <div id="OthersCallbackText"></div>
+    <div id="BroadcastText"></div>
+    <div id="BroadcastToGroupText"></div>
+    <p>
+        <input id="Button1" type="button" value="button" />
+        <br/>
+        <input id="Button2" type="button" value="On" />
+        <br/>
+        <input id="Button3" type="button" value="Off" />
+    </p>
+    <script type="text/javascript">
+        $(document).ready(function() {
+            $('#Button1').click(function() {
+                var request = {};
+                request.Text = 'SendMessage';
+
+                $.connection.deviceCommunicationHub.server.request(request).done(function (response) {
+                    $('#ResponseText').html('<pre>Response: ' + response.Text + '</pre>');
+                });
+            });
+
+            $('#Button2').click(function () {
+                $.connection.deviceCommunicationHub.server.activateLight(0, "on");
+            });
+
+            $('#Button3').click(function () {
+                $.connection.deviceCommunicationHub.server.activateLight(0, "off");
+            });
+
+        });
+    </script>
+</body>
+</html>
+

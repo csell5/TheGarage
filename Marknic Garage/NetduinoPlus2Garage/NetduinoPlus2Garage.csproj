@@ -1,0 +1,112 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <AssemblyName>NetduinoPlus2Garage</AssemblyName>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>NetduinoPlus2Garage</RootNamespace>
+    <ProjectTypeGuids>{b69e3092-b931-443c-abe7-7e7b65f2a37f};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <ProductVersion>9.0.21022</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{331FF421-1EC7-487F-AEDB-54488EB9F29C}</ProjectGuid>
+    <TargetFrameworkVersion>v4.2</TargetFrameworkVersion>
+    <NetMfTargetsBaseDir Condition="'$(NetMfTargetsBaseDir)'==''">$(MSBuildExtensionsPath32)\Microsoft\.NET Micro Framework\</NetMfTargetsBaseDir>
+    <DeployDevice>Netduino</DeployDevice>
+    <DeployTransport>USB</DeployTransport>
+    <SccProjectName>
+    </SccProjectName>
+    <SccLocalPath>
+    </SccLocalPath>
+    <SccAuxPath>
+    </SccAuxPath>
+    <SccProvider>
+    </SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE,MF_FRAMEWORK_VERSION_V4_2</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <Import Project="$(NetMfTargetsBaseDir)$(TargetFrameworkVersion)\CSharp.Targets" />
+  <ItemGroup>
+    <Compile Include="Support\HtmlConstants.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Support\WebServerConstants.cs" />
+    <Compile Include="WebServerCommandProcessor.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.SPOT.Native" />
+    <Reference Include="System.IO" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\MarkNic.JsonSupport\MarkNic.JsonSupport.csproj">
+      <Project>{9D07C844-C596-4BFC-AD96-7A31CAAEC865}</Project>
+      <Name>MarkNic.JsonSupport</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Marknic.NdGarageDoorLightsController\Marknic.NdGarageDoorLightsController.csproj">
+      <Project>{FB68BC8E-CD90-43A7-87CC-39C88C1F1D36}</Project>
+      <Name>Marknic.NdGarageDoorLightsController</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Marknic.Web\Marknic.Web.csproj">
+      <Project>{B5BDBA36-CEDF-4BB6-A333-EBCD38D10947}</Project>
+      <Name>Marknic.Web</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Files\content\a.css" />
+    <Content Include="Files\content\b.css" />
+    <Content Include="Files\content\garage.css" />
+    <Content Include="Files\favicon.ico" />
+    <Content Include="Files\images\ai1.png" />
+    <Content Include="Files\images\ai2.png" />
+    <Content Include="Files\images\hdr.jpg" />
+    <Content Include="Files\images\hr.png" />
+    <Content Include="Files\images\hr2.png" />
+    <Content Include="Files\index-old.html" />
+    <Content Include="Files\index.htm" />
+    <Content Include="Files\list.htm" />
+    <Content Include="Files\scripts\garage.setup.js" />
+    <Content Include="Files\scripts\garage.control.js" />
+    <Content Include="Files\scripts\garage.control.min.js" />
+    <Content Include="Files\scripts\jquery-1.7.1.intellisense.js" />
+    <Content Include="Files\scripts\jquery-1.7.1.js" />
+    <Content Include="Files\scripts\jquery-1.7.1.min.js" />
+    <Content Include="Files\scripts\jquery-ui-1.8.20.js" />
+    <Content Include="Files\scripts\jquery-ui-1.8.20.min.js" />
+    <Content Include="Files\scripts\jquery.unobtrusive-ajax.js" />
+    <Content Include="Files\scripts\jquery.unobtrusive-ajax.min.js" />
+    <Content Include="Files\scripts\jquery.validate-vsdoc.js" />
+    <Content Include="Files\scripts\jquery.validate.js" />
+    <Content Include="Files\scripts\jquery.validate.min.js" />
+    <Content Include="Files\scripts\jquery.validate.unobtrusive.js" />
+    <Content Include="Files\scripts\jquery.validate.unobtrusive.min.js" />
+    <Content Include="Files\scripts\knockout-2.1.0.debug.js" />
+    <Content Include="Files\scripts\knockout-2.1.0.js" />
+    <Content Include="Files\scripts\modernizr-2.5.3.js" />
+    <Content Include="Files\scripts\_references.js" />
+    <Content Include="Files\setvalue.htm" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Files\scripts\Copy of garage.control.min.js.map">
+      <DependentUpon>garage.setup.js</DependentUpon>
+    </None>
+    <None Include="Files\scripts\garage.control.min.js.map">
+      <DependentUpon>garage.control.js</DependentUpon>
+    </None>
+    <None Include="Marknic.Controller.config">
+      <SubType>Designer</SubType>
+    </None>
+  </ItemGroup>
+</Project>

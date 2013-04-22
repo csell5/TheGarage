@@ -1,0 +1,13 @@
+C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\bin\Debug\resources.pri
+C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\bin\Debug\AppxManifest.xml
+C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\bin\Debug\TheGarage.build.appxrecipe
+C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\bld\Debug\priconfig.xml.intermediate
+C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\bld\Debug\layout.resfiles.intermediate
+C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\bld\Debug\resources.resfiles.intermediate
+C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\bld\Debug\pri.resfiles.intermediate
+C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\bld\Debug\priconfig.xml
+C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\bld\Debug\layout.resfiles
+C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\bld\Debug\resources.resfiles
+C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\bld\Debug\pri.resfiles
+C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\bld\Debug\LanguageQualifiers.txt
+C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\bld\Debug\ProjectArchitectures.txt

@@ -1,0 +1,60 @@
+﻿.resultDisplay {
+    width: 400px;
+    border: 1px solid #999999;
+    padding: 15px 15px 15px 15px;
+    background-image: -webkit-linear-gradient(#aaddaa, #ffffff);
+    background-image: -moz-linear-gradient(#aaddaa, #ffffff);
+    background-image: -o-linear-gradient(#aaddaa, #ffffff);
+    background-image: linear-gradient(#aaddaa, #ffffff);
+    -moz-border-radius: 8px;
+    -webkit-border-radius: 8px;
+    border-radius: 8px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+}
+
+h1, h2, h3, h4, h5, h6, a {
+    border: 0;
+    font: 12px/22px Verdana, sans-serif;
+    margin: 0 0 0 10px;
+    outline: 0;
+    padding: 0;
+}
+
+H1, H3, H4, H5 {
+    color: #008000;
+    font-weight: normal;
+    margin: 0 0 15px 0;
+    padding: 0 0 15px 0;
+    text-align: center;
+}
+
+H1 {
+    font-size: 15px;
+    padding: 0 0 10px 0;
+}
+
+H2 {
+    font-size: 14px;
+    margin: 0 0 20px 0;
+}
+
+H3 {
+    border-bottom: 1px dotted #999;
+    font-size: 16px;
+    margin: 20px 0 15px 0;
+    padding: 0;
+}
+
+H4, H5 {
+    font-size: 13px;
+    margin: 0 0 0 0;
+    
+}
+
+H6 {
+    font-size: 13px;
+    margin: 0 0 0 0;
+    text-align: center;
+}

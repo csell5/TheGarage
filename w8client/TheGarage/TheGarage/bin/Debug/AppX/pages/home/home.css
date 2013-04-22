@@ -1,0 +1,68 @@
+﻿.homepage section[role=main] {
+	
+	display: -ms-grid;
+	-ms-grid-columns: 50px 1fr 725px 1fr 50px;
+	-ms-grid-rows: 200px 1fr;
+}
+
+#garage {
+    -ms-grid-column: 2;
+    -ms-grid-column-span: 3;
+
+	-ms-grid-row: 1;
+    -ms-grid-row-span: 2;
+}
+
+#garageVector {
+	width: 100%;	
+}
+
+.doorOpen {
+    stroke: "none"; 
+    fill: "none";
+}
+
+.doorClosed {
+    stroke: "#ffffff"; 
+    fill: "#ffffff";    
+}
+
+.lightsOff {
+    fill: lightgrey;
+    stroke: "none";
+}
+
+.lightsOn {
+    fill: yellow;
+    stroke: "none";
+}
+
+#carBackground{
+	
+	-ms-grid-column: 3;
+	-ms-grid-row: 2;
+   
+	background-image: url("/images/black-car-wallpaper.png");
+	background-repeat: no-repeat;   
+	background-position: center;
+	background-size: 100% auto;
+	background-position-y: bottom; 
+    margin-left: 10px;
+
+    /*background-position-x: 35px; */
+}
+
+
+@media screen and (-ms-view-state: snapped) {
+	.homepage section[role=main] {
+		margin-left: 20px;
+		margin-right: 20px;
+	}
+}
+
+@media screen and (-ms-view-state: fullscreen-portrait) {
+	.homepage section[role=main] {
+		margin-left: 100px;
+		margin-right: 100px;
+	}
+}

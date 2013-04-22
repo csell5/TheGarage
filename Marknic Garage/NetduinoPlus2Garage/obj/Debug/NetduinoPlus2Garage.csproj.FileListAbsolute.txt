@@ -1,0 +1,84 @@
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\le\NetduinoPlus2Garage.exe
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\be\NetduinoPlus2Garage.exe
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\le\NetduinoPlus2Garage.pdb
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\be\NetduinoPlus2Garage.pdb
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\NetduinoPlus2Garage.exe
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\NetduinoPlus2Garage.pdb
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\le\NetduinoPlus2Garage.pe
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\le\NetduinoPlus2Garage.pdbx
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\be\NetduinoPlus2Garage.pe
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\be\NetduinoPlus2Garage.pdbx
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\LE\MarkNic.JsonSupport.pe
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\LE\Marknic.NdGarageDoorLightsController.pe
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\LE\Marknic.Web.pe
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\LE\SecretLabs.NETMF.Hardware.Netduino.pe
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\BE\MarkNic.JsonSupport.pe
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\BE\Marknic.NdGarageDoorLightsController.pe
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\BE\Marknic.Web.pe
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\BE\SecretLabs.NETMF.Hardware.Netduino.pe
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\LE\MarkNic.JsonSupport.pdbx
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\LE\Marknic.NdGarageDoorLightsController.pdbx
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\LE\Marknic.Web.pdbx
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\LE\SecretLabs.NETMF.Hardware.Netduino.pdbx
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\BE\MarkNic.JsonSupport.pdbx
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\BE\Marknic.NdGarageDoorLightsController.pdbx
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\BE\Marknic.Web.pdbx
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\BE\SecretLabs.NETMF.Hardware.Netduino.pdbx
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\MarkNic.JsonSupport.dll
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\Marknic.NdGarageDoorLightsController.dll
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\Marknic.Web.dll
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\SecretLabs.NETMF.Hardware.Netduino.dll
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\MarkNic.JsonSupport.pdb
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\Marknic.NdGarageDoorLightsController.pdb
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\Marknic.Web.pdb
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\bin\Debug\SecretLabs.NETMF.Hardware.Netduino.pdb
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\obj\Debug\NetduinoPlus2Garage.csprojResolveAssemblyReference.cache
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\obj\Debug\TinyCLR_DebugReferences.cache
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\obj\Debug\NetduinoPlus2Garage.exe
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\obj\Debug\NetduinoPlus2Garage.pdb
+C:\_TfsProjectsVs2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\obj\Debug\be\NetduinoPlus2Garage.pe
+C:\_TfsProjectsVs2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\obj\Debug\be\NetduinoPlus2Garage.pdbx
+C:\_TfsProjectsVs2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\obj\Debug\le\NetduinoPlus2Garage.pe
+C:\_TfsProjectsVs2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\NetduinoPlus2Garage\obj\Debug\le\NetduinoPlus2Garage.pdbx
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\le\NetduinoPlus2Garage.exe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\be\NetduinoPlus2Garage.exe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\le\NetduinoPlus2Garage.pdb
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\be\NetduinoPlus2Garage.pdb
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\NetduinoPlus2Garage.exe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\NetduinoPlus2Garage.pdb
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\le\NetduinoPlus2Garage.pe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\le\NetduinoPlus2Garage.pdbx
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\be\NetduinoPlus2Garage.pe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\be\NetduinoPlus2Garage.pdbx
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\LE\MarkNic.JsonSupport.pe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\LE\Marknic.NdGarageDoorLightsController.pe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\LE\Marknic.Web.pe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\LE\SecretLabs.NETMF.Hardware.Netduino.pe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\BE\MarkNic.JsonSupport.pe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\BE\Marknic.NdGarageDoorLightsController.pe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\BE\Marknic.Web.pe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\BE\SecretLabs.NETMF.Hardware.Netduino.pe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\LE\MarkNic.JsonSupport.pdbx
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\LE\Marknic.NdGarageDoorLightsController.pdbx
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\LE\Marknic.Web.pdbx
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\LE\SecretLabs.NETMF.Hardware.Netduino.pdbx
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\BE\MarkNic.JsonSupport.pdbx
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\BE\Marknic.NdGarageDoorLightsController.pdbx
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\BE\Marknic.Web.pdbx
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\BE\SecretLabs.NETMF.Hardware.Netduino.pdbx
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\MarkNic.JsonSupport.dll
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\Marknic.NdGarageDoorLightsController.dll
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\Marknic.Web.dll
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\SecretLabs.NETMF.Hardware.Netduino.dll
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\MarkNic.JsonSupport.pdb
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\Marknic.NdGarageDoorLightsController.pdb
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\Marknic.Web.pdb
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\bin\Debug\SecretLabs.NETMF.Hardware.Netduino.pdb
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\obj\Debug\NetduinoPlus2Garage.csprojResolveAssemblyReference.cache
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\obj\Debug\TinyCLR_DebugReferences.cache
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\obj\Debug\NetduinoPlus2Garage.exe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\obj\Debug\NetduinoPlus2Garage.pdb
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\obj\Debug\be\NetduinoPlus2Garage.pe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\obj\Debug\be\NetduinoPlus2Garage.pdbx
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\obj\Debug\le\NetduinoPlus2Garage.pe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\NetduinoPlus2Garage\obj\Debug\le\NetduinoPlus2Garage.pdbx

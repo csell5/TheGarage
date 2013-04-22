@@ -1,0 +1,54 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NetduinoPlus2Garage", "NetduinoPlus2Garage\NetduinoPlus2Garage.csproj", "{331FF421-1EC7-487F-AEDB-54488EB9F29C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarkNic.JsonSupport", "MarkNic.JsonSupport\MarkNic.JsonSupport.csproj", "{9D07C844-C596-4BFC-AD96-7A31CAAEC865}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marknic.Web", "Marknic.Web\Marknic.Web.csproj", "{B5BDBA36-CEDF-4BB6-A333-EBCD38D10947}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marknic.NdGarageDoorLightsController", "Marknic.NdGarageDoorLightsController\Marknic.NdGarageDoorLightsController.csproj", "{FB68BC8E-CD90-43A7-87CC-39C88C1F1D36}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marknic.TestRunner.Rigging", "Marknic.TestRunner.Rigging\Marknic.TestRunner.Rigging.csproj", "{3B9F95F2-EACD-4609-A8FA-459A088C081D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Marknic.TestRunner", "Marknic.TestRunner\Marknic.TestRunner.csproj", "{31223C89-FC73-49A0-AF84-B4201A4F4384}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{331FF421-1EC7-487F-AEDB-54488EB9F29C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{331FF421-1EC7-487F-AEDB-54488EB9F29C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{331FF421-1EC7-487F-AEDB-54488EB9F29C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{331FF421-1EC7-487F-AEDB-54488EB9F29C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{331FF421-1EC7-487F-AEDB-54488EB9F29C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{331FF421-1EC7-487F-AEDB-54488EB9F29C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9D07C844-C596-4BFC-AD96-7A31CAAEC865}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D07C844-C596-4BFC-AD96-7A31CAAEC865}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D07C844-C596-4BFC-AD96-7A31CAAEC865}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D07C844-C596-4BFC-AD96-7A31CAAEC865}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B5BDBA36-CEDF-4BB6-A333-EBCD38D10947}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B5BDBA36-CEDF-4BB6-A333-EBCD38D10947}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B5BDBA36-CEDF-4BB6-A333-EBCD38D10947}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B5BDBA36-CEDF-4BB6-A333-EBCD38D10947}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB68BC8E-CD90-43A7-87CC-39C88C1F1D36}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB68BC8E-CD90-43A7-87CC-39C88C1F1D36}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB68BC8E-CD90-43A7-87CC-39C88C1F1D36}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB68BC8E-CD90-43A7-87CC-39C88C1F1D36}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B9F95F2-EACD-4609-A8FA-459A088C081D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B9F95F2-EACD-4609-A8FA-459A088C081D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B9F95F2-EACD-4609-A8FA-459A088C081D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B9F95F2-EACD-4609-A8FA-459A088C081D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31223C89-FC73-49A0-AF84-B4201A4F4384}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31223C89-FC73-49A0-AF84-B4201A4F4384}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31223C89-FC73-49A0-AF84-B4201A4F4384}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{31223C89-FC73-49A0-AF84-B4201A4F4384}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31223C89-FC73-49A0-AF84-B4201A4F4384}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31223C89-FC73-49A0-AF84-B4201A4F4384}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

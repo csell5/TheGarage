@@ -1,0 +1,36 @@
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\MarkNic.JsonSupport\bin\Debug\le\MarkNic.JsonSupport.dll
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\MarkNic.JsonSupport\bin\Debug\be\MarkNic.JsonSupport.dll
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\MarkNic.JsonSupport\bin\Debug\le\MarkNic.JsonSupport.pdb
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\MarkNic.JsonSupport\bin\Debug\be\MarkNic.JsonSupport.pdb
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\MarkNic.JsonSupport\bin\Debug\MarkNic.JsonSupport.dll
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\MarkNic.JsonSupport\bin\Debug\MarkNic.JsonSupport.pdb
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\MarkNic.JsonSupport\bin\Debug\le\MarkNic.JsonSupport.pe
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\MarkNic.JsonSupport\bin\Debug\le\MarkNic.JsonSupport.pdbx
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\MarkNic.JsonSupport\bin\Debug\be\MarkNic.JsonSupport.pe
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\MarkNic.JsonSupport\bin\Debug\be\MarkNic.JsonSupport.pdbx
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\MarkNic.JsonSupport\obj\Debug\MarkNic.JsonSupport.csprojResolveAssemblyReference.cache
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\MarkNic.JsonSupport\obj\Debug\TinyCLR_DebugReferences.cache
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\MarkNic.JsonSupport\obj\Debug\MarkNic.JsonSupport.dll
+C:\_TfsProjectsVS2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\MarkNic.JsonSupport\obj\Debug\MarkNic.JsonSupport.pdb
+C:\_TfsProjectsVs2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\MarkNic.JsonSupport\obj\Debug\be\MarkNic.JsonSupport.pe
+C:\_TfsProjectsVs2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\MarkNic.JsonSupport\obj\Debug\be\MarkNic.JsonSupport.pdbx
+C:\_TfsProjectsVs2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\MarkNic.JsonSupport\obj\Debug\le\MarkNic.JsonSupport.pe
+C:\_TfsProjectsVs2012\Robotics\Netduino FSM\FSM Test Env\Dev\MarknicGarage\Dev\VS2012 Upgrade\MarkNic.JsonSupport\obj\Debug\le\MarkNic.JsonSupport.pdbx
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\MarkNic.JsonSupport\bin\Debug\le\MarkNic.JsonSupport.dll
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\MarkNic.JsonSupport\bin\Debug\be\MarkNic.JsonSupport.dll
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\MarkNic.JsonSupport\bin\Debug\le\MarkNic.JsonSupport.pdb
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\MarkNic.JsonSupport\bin\Debug\be\MarkNic.JsonSupport.pdb
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\MarkNic.JsonSupport\bin\Debug\MarkNic.JsonSupport.dll
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\MarkNic.JsonSupport\bin\Debug\MarkNic.JsonSupport.pdb
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\MarkNic.JsonSupport\bin\Debug\le\MarkNic.JsonSupport.pe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\MarkNic.JsonSupport\bin\Debug\le\MarkNic.JsonSupport.pdbx
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\MarkNic.JsonSupport\bin\Debug\be\MarkNic.JsonSupport.pe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\MarkNic.JsonSupport\bin\Debug\be\MarkNic.JsonSupport.pdbx
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\MarkNic.JsonSupport\obj\Debug\MarkNic.JsonSupport.csprojResolveAssemblyReference.cache
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\MarkNic.JsonSupport\obj\Debug\TinyCLR_DebugReferences.cache
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\MarkNic.JsonSupport\obj\Debug\MarkNic.JsonSupport.dll
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\MarkNic.JsonSupport\obj\Debug\MarkNic.JsonSupport.pdb
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\MarkNic.JsonSupport\obj\Debug\be\MarkNic.JsonSupport.pe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\MarkNic.JsonSupport\obj\Debug\be\MarkNic.JsonSupport.pdbx
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\MarkNic.JsonSupport\obj\Debug\le\MarkNic.JsonSupport.pe
+C:\_TfsProjectsVs2012\Robotics\Marknic Garage\MarkNic.JsonSupport\obj\Debug\le\MarkNic.JsonSupport.pdbx

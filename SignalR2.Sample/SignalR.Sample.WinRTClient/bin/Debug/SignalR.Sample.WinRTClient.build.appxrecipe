@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>MNICW530</Machine>
+    <WindowsUser>marknic</WindowsUser>
+    <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
+    <PackageArchitecture>neutral</PackageArchitecture>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Garage Application Development\SignalR2.Sample\SignalR.Sample.WinRTClient\bin\Debug\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Garage Application Development\SignalR2.Sample\SignalR.Sample.WinRTClient\bin\Debug\SignalR.Sample.WinRTClient.exe">
+      <PackagePath>SignalR.Sample.WinRTClient.exe</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Garage Application Development\SignalR2.Sample\SignalR.Sample.WinRTClient\bin\Debug\SignalR.Sample.WinRTClient.pdb">
+      <PackagePath>SignalR.Sample.WinRTClient.pdb</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Garage Application Development\SignalR2.Sample\packages\Microsoft.AspNet.SignalR.Client.1.0.1\lib\winrt\Microsoft.AspNet.SignalR.Client.dll">
+      <PackagePath>Microsoft.AspNet.SignalR.Client.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Garage Application Development\SignalR2.Sample\packages\Newtonsoft.Json.4.5.11\lib\winrt45\Newtonsoft.Json.dll">
+      <PackagePath>Newtonsoft.Json.dll</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Garage Application Development\SignalR2.Sample\packages\Microsoft.AspNet.SignalR.Client.1.0.1\lib\winrt\Microsoft.AspNet.SignalR.Client.xml">
+      <PackagePath>Microsoft.AspNet.SignalR.Client.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Garage Application Development\SignalR2.Sample\packages\Newtonsoft.Json.4.5.11\lib\winrt45\Newtonsoft.Json.xml">
+      <PackagePath>Newtonsoft.Json.xml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Garage Application Development\SignalR2.Sample\SignalR.Sample.WinRTClient\Assets\Logo.png">
+      <PackagePath>Assets\Logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Garage Application Development\SignalR2.Sample\SignalR.Sample.WinRTClient\Assets\SmallLogo.png">
+      <PackagePath>Assets\SmallLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Garage Application Development\SignalR2.Sample\SignalR.Sample.WinRTClient\Assets\SplashScreen.png">
+      <PackagePath>Assets\SplashScreen.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Garage Application Development\SignalR2.Sample\SignalR.Sample.WinRTClient\Assets\StoreLogo.png">
+      <PackagePath>Assets\StoreLogo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Garage Application Development\SignalR2.Sample\SignalR.Sample.WinRTClient\bin\Debug\App.xaml">
+      <PackagePath>App.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Garage Application Development\SignalR2.Sample\SignalR.Sample.WinRTClient\bin\Debug\Common\StandardStyles.xaml">
+      <PackagePath>Common\StandardStyles.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Garage Application Development\SignalR2.Sample\SignalR.Sample.WinRTClient\bin\Debug\MainPage.xaml">
+      <PackagePath>MainPage.xaml</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Garage Application Development\SignalR2.Sample\SignalR.Sample.WinRTClient\bin\Debug\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+  </ItemGroup>
+</Project>
