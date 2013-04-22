@@ -1,4 +1,5 @@
-﻿using System.Diagnostics;
+﻿using System;
+using System.Diagnostics;
 using Microsoft.AspNet.SignalR;
 using Microsoft.AspNet.SignalR.Hubs;
 
@@ -22,7 +23,13 @@ namespace SignalR.Sample
         {
             protected override bool OnBeforeIncoming(IHubIncomingInvokerContext context)
             {
-                Debug.WriteLine("=> Invoking " + context.MethodDescriptor.Name + " on hub " + context.MethodDescriptor.Hub.Name);
+                try
+                {
+                    Debug.WriteLine("=> Invoking " + context.MethodDescriptor.Name + " on hub " +
+                                    context.MethodDescriptor.Hub.Name);
+                }
+                catch (Exception) { }
+
                 return base.OnBeforeIncoming(context);
             }
 

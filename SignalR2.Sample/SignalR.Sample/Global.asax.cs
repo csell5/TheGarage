@@ -10,7 +10,7 @@ namespace SignalR.Sample
         {
             SignalRConfig.ConfigureSignalR(GlobalHost.DependencyResolver, GlobalHost.HubPipeline);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-            BackgroundThread.Start();
+            //BackgroundThread.Start();
         }
 
         protected void Session_Start(object sender, EventArgs e)
