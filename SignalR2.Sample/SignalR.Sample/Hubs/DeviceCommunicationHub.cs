@@ -1,9 +1,9 @@
-﻿using System.Configuration;
-using Microsoft.AspNet.SignalR;
-using System;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNet.SignalR;
 using Newtonsoft.Json;
 using SignalR.Sample.HubModels;
+using System;
+using System.Configuration;
+using System.Threading.Tasks;
 
 namespace SignalR.Sample.Hubs
 {
@@ -23,18 +23,18 @@ namespace SignalR.Sample.Hubs
 
         public FromServerToClientData Request(FromClientToServerData request)
         {
-            var response = new FromServerToClientData {Text = "Responding to: " + request.Text};
+            var response = new FromServerToClientData { Text = "Responding to: " + request.Text };
 
             if (request.Text == "SendMessage")
             {
-                var sendResponse = new FromServerToClientData {Text = "WooHoo!"};
+                var sendResponse = new FromServerToClientData { Text = "WooHoo!" };
 
                 Clients.Others.OthersCallback(sendResponse);
             }
 
             if (request.Text == "SendConsole")
             {
-                var consoleResponse = new FromServerToClientData { Text = "Calling Mr. Console!", Command = request.Command};
+                var consoleResponse = new FromServerToClientData { Text = "Calling Mr. Console!", Command = request.Command };
 
                 Clients.Client(ConsoleKey).ActivateDoor(0, "on");
 
@@ -74,11 +74,17 @@ namespace SignalR.Sample.Hubs
             Clients.Client(ConsoleKey).ActivateSoftLock(command);
         }
 
+        [Obsolete("Moved to the onconnected for the connection", true)]
         public void RequestStatus(string id)
         {
             Clients.Client(ConsoleKey).RequestStatus(id);
         }
 
+        public override Task OnConnected()
+        {
+            Clients.Client(ConsoleKey).RequestStatus(base.Context.ConnectionId);
+            return base.OnConnected();
+        }
 
         public Response SignOn(SignOnRequest signOnRequest)
         {
@@ -95,7 +101,7 @@ namespace SignalR.Sample.Hubs
 
         public async Task<FromServerToClientData> RequestAsync(FromClientToServerData request)
         {
-            var response = new FromServerToClientData {Text = "Responding to: " + request.Text};
+            var response = new FromServerToClientData { Text = "Responding to: " + request.Text };
 
             await Task.Delay(TimeSpan.FromSeconds(1));
 
@@ -104,7 +110,7 @@ namespace SignalR.Sample.Hubs
 
         public async Task RequestWithCallbackAsync(FromClientToServerData request)
         {
-            var response = new FromServerToClientData {Text = "Responding to: " + request.Text};
+            var response = new FromServerToClientData { Text = "Responding to: " + request.Text };
 
             await Task.Delay(TimeSpan.FromSeconds(5));
 
