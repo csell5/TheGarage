@@ -1,0 +1,49 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+
+<div id="garageManagement">
+    <header>
+        <strong>Garage Controller - <span id="garageName"></span></strong>
+    </header>
+    <img id="garageIcon" src="~/Images/garageicon.png" alt="theGarage" height="75" width="155" />
+            
+    <div id="garageLocks">
+                
+        <div id="garageLock">
+            <span id="garageLockTitle">Garage Status:</span> <span id="garageLockStatus">Unlocked</span>
+        </div>
+        <div id="hardlock">
+            <span id="hardlockTitle">Hard Lock:</span> <span id="hardlockStatus">Unlocked</span>
+        </div>
+    </div>
+    <div id="softlockInput">
+        <div id="softlock">
+            <input id="softlockImage" type="image" src="~/Images/unlocked.png" width="60" height="80" />
+            <br/>
+            <span id="softlockTitle">Soft Lock</span> 
+        </div>
+    </div>
+    <div id="garageControl">
+
+        <div id="light0Group">
+            <input id="light0" class="lights" type="image" src="~/Images/lightoff.png" width="83" height="95" /><br/>
+            <span id="light0Title">Inside Lights</span> 
+        </div>
+
+        <div id="door0Group">
+            <input id="door0" class="doors" type="image" src="~/Images/closed.png" width="454" height="368" />
+            <br/>
+            <p id="door0Title" >Garage Door</p> 
+        </div>
+
+        <div id="light1Group">
+            <input id="light1" class="lights" type="image" src="~/Images/lightoff.png" width="83" height="95"  /><br/>
+            <span id="light1Title">Outside Lights</span> 
+        </div>
+                
+                
+    </div>
+</div>
+

@@ -1,0 +1,188 @@
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\obj\Debug\TheGarageMvc.csprojResolveAssemblyReference.cache
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\TheGarageMvc.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\TheGarageMvc.pdb
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Antlr3.Runtime.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.AspNet.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.Core.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.OAuth.Consumer.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.OAuth.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.OpenId.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\EntityFramework.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Microsoft.AspNet.SignalR.Core.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Microsoft.AspNet.SignalR.Owin.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Microsoft.Data.Edm.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Microsoft.Data.OData.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Microsoft.Web.Infrastructure.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Microsoft.Web.WebPages.OAuth.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Newtonsoft.Json.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Owin.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Net.Http.Formatting.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Spatial.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.Helpers.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.Http.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.Http.OData.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.Http.WebHost.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.Mvc.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.Optimization.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.Razor.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.WebPages.Deployment.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.WebPages.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.WebPages.Razor.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\WebGrease.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\WebMatrix.Data.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\WebMatrix.WebData.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Microsoft.AspNet.SignalR.Core.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Microsoft.AspNet.SignalR.Owin.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\EntityFramework.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Newtonsoft.Json.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Net.Http.Formatting.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.Helpers.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.Http.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.Http.WebHost.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.Mvc.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.Razor.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.WebPages.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.WebPages.Deployment.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.WebPages.Razor.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\WebMatrix.Data.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Microsoft.Web.WebPages.OAuth.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\WebMatrix.WebData.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.AspNet.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.Core.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.OAuth.Consumer.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.OAuth.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.OpenId.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Web.Http.OData.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Microsoft.Data.Edm.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\Microsoft.Data.OData.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\System.Spatial.xml
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\de\Microsoft.Data.Edm.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\es\Microsoft.Data.Edm.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\fr\Microsoft.Data.Edm.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\it\Microsoft.Data.Edm.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\ja\Microsoft.Data.Edm.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\ko\Microsoft.Data.Edm.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\ru\Microsoft.Data.Edm.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\de\Microsoft.Data.OData.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\es\Microsoft.Data.OData.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\fr\Microsoft.Data.OData.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\it\Microsoft.Data.OData.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\ja\Microsoft.Data.OData.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\ko\Microsoft.Data.OData.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\ru\Microsoft.Data.OData.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\de\System.Spatial.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\es\System.Spatial.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\fr\System.Spatial.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\it\System.Spatial.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\ja\System.Spatial.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\ko\System.Spatial.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\ru\System.Spatial.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\zh-Hans\System.Spatial.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\bin\zh-Hant\System.Spatial.resources.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\obj\Debug\TheGarageMvc.dll
+c:\users\marknic.northamerica\documents\visual studio 2012\Projects\TheGarageMvc\TheGarageMvc\obj\Debug\TheGarageMvc.pdb
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\TheGarageMvc.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\TheGarageMvc.pdb
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Antlr3.Runtime.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.AspNet.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.Core.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.OAuth.Consumer.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.OAuth.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.OpenId.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.OpenId.RelyingParty.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\EntityFramework.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.AspNet.SignalR.Core.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.AspNet.SignalR.Owin.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.AspNet.SignalR.SystemWeb.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.Data.Edm.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.Data.OData.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.Owin.Host.SystemWeb.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.Web.Infrastructure.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.Web.Mvc.FixedDisplayModes.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.Web.WebPages.OAuth.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Newtonsoft.Json.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Owin.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Net.Http.Formatting.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Spatial.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.Helpers.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.Http.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.Http.OData.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.Http.WebHost.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.Mvc.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.Optimization.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.Razor.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.WebPages.Deployment.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.WebPages.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.WebPages.Razor.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\WebGrease.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\WebMatrix.Data.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\WebMatrix.WebData.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.AspNet.SignalR.Core.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.AspNet.SignalR.Owin.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.AspNet.SignalR.SystemWeb.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.Owin.Host.SystemWeb.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\EntityFramework.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Newtonsoft.Json.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Net.Http.Formatting.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.Helpers.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.Http.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.Http.WebHost.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.Mvc.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.Razor.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.WebPages.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.WebPages.Deployment.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.WebPages.Razor.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\WebMatrix.Data.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.Web.WebPages.OAuth.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\WebMatrix.WebData.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.AspNet.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.Core.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.OAuth.Consumer.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.OAuth.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.OpenId.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\DotNetOpenAuth.OpenId.RelyingParty.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Web.Http.OData.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.Data.Edm.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.Data.OData.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.Spatial.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\de\Microsoft.Data.Edm.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\es\Microsoft.Data.Edm.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\fr\Microsoft.Data.Edm.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\it\Microsoft.Data.Edm.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\ja\Microsoft.Data.Edm.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\ko\Microsoft.Data.Edm.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\ru\Microsoft.Data.Edm.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\zh-Hans\Microsoft.Data.Edm.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\zh-Hant\Microsoft.Data.Edm.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\de\Microsoft.Data.OData.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\es\Microsoft.Data.OData.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\fr\Microsoft.Data.OData.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\it\Microsoft.Data.OData.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\ja\Microsoft.Data.OData.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\ko\Microsoft.Data.OData.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\ru\Microsoft.Data.OData.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\zh-Hans\Microsoft.Data.OData.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\zh-Hant\Microsoft.Data.OData.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\de\System.Spatial.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\es\System.Spatial.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\fr\System.Spatial.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\it\System.Spatial.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\ja\System.Spatial.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\ko\System.Spatial.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\ru\System.Spatial.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\zh-Hans\System.Spatial.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\zh-Hant\System.Spatial.resources.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\obj\Debug\TheGarageMvc.csprojResolveAssemblyReference.cache
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\obj\Debug\TheGarageMvc.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\obj\Debug\TheGarageMvc.pdb
