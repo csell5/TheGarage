@@ -56,8 +56,8 @@ namespace GarageTestConsole.Devices
         {
             for (var i = 0; i < Door.Length; i++)
             {
-                if (Door[0].Name != otherGarage.Door[i].Name) return true;
-                if (Door[0].Status != otherGarage.Door[i].Status) return true;
+                if (Door[i].Name != otherGarage.Door[i].Name) return true;
+                if (Door[i].Status != otherGarage.Door[i].Status) return true;
             }
 
             return false;
@@ -67,8 +67,8 @@ namespace GarageTestConsole.Devices
         {
             for (var i = 0; i < Light.Length; i++)
             {
-                if (Light[0].Name != otherGarage.Light[i].Name) return true;
-                if (Light[0].Status != otherGarage.Light[i].Status) return true;
+                if (Light[i].Name != otherGarage.Light[i].Name) return true;
+                if (Light[i].Status != otherGarage.Light[i].Status) return true;
             }
 
             return false;
