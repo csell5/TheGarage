@@ -1,6 +1,8 @@
 ﻿using Microsoft.AspNet.SignalR;
 using System;
+using System.Web.Http;
 using System.Web.Routing;
+using theGarage;
 
 namespace SignalR.Sample
 {
@@ -10,6 +12,8 @@ namespace SignalR.Sample
         {
             SignalRConfig.ConfigureSignalR(GlobalHost.DependencyResolver, GlobalHost.HubPipeline);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
+
+            WebApiConfig.Register(GlobalConfiguration.Configuration);
             BackgroundThread.Start();
         }
 

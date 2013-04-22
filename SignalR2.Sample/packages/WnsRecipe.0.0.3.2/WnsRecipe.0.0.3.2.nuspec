@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>WnsRecipe</id>
+    <version>0.0.3.2</version>
+    <authors>Microsoft DPE</authors>
+    <owners>Microsoft DPE</owners>
+    <licenseUrl>http://www.opensource.org/licenses/ms-pl</licenseUrl>
+    <projectUrl>http://watwindows8.codeplex.com/</projectUrl>
+    <iconUrl>http://wazmobiletoolkit.blob.core.windows.net/nuget/logos/WinAzure_rgb.png</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>The Windows Push Notification Service Recipe provides an object model to easily construct and send Toast, Tile, Badge and Raw Notifications using the Windows Push Notification Services (WNS).</description>
+    <tags>Windows8 WNS DPE Metro Notification</tags>
+    <references>
+      <reference file="NotificationsExtensions.dll" />
+      <reference file="WnsRecipe.dll" />
+    </references>
+  </metadata>
+</package>

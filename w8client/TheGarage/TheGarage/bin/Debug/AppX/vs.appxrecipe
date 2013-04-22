@@ -5,18 +5,18 @@
     <WindowsUser>Clark</WindowsUser>
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
-    <RegisteredManifestChecksum>9DF116E5AD6FBBAE65D7059E9CAAA41BE75FA1C531E4973D3D10DD3602E345C9</RegisteredManifestChecksum>
-    <RegisteredPackageMoniker>5093849c-b29e-42c2-b2e3-4da016224eaa_1.0.0.0_neutral__rhg4v0b7gygzg</RegisteredPackageMoniker>
-    <RegisteredUserModeAppID>5093849c-b29e-42c2-b2e3-4da016224eaa_rhg4v0b7gygzg!App</RegisteredUserModeAppID>
-    <RegisteredPackageID>5093849c-b29e-42c2-b2e3-4da016224eaa</RegisteredPackageID>
-    <RegisteredPackagePublisher>CN=Clark</RegisteredPackagePublisher>
+    <RegisteredManifestChecksum>B3DF1224AC4CE62338223DF7586DB886C19C3B6DD3BE130C2BA76E844FAB1C3D</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>32361ClarkSell.theGarage_1.0.0.0_neutral__hnmv5mhjhprx2</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>32361ClarkSell.theGarage_hnmv5mhjhprx2!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>32361ClarkSell.theGarage</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=E52C30A2-E897-42F9-8D37-1F9E26313F35</RegisteredPackagePublisher>
     <RegisteredVersion>1.0.0.0</RegisteredVersion>
   </PropertyGroup>
   <ItemGroup>
     <AppXManifest Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-04-22T18:44:29.928</Modified>
+      <Modified>2013-04-22T22:45:31.472</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
@@ -63,7 +63,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\js\default.js">
       <PackagePath>js\default.js</PackagePath>
-      <Modified>2013-04-20T19:02:06.034</Modified>
+      <Modified>2013-04-22T22:48:28.648</Modified>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\js\navigator.js">
       <PackagePath>js\navigator.js</PackagePath>
@@ -111,7 +111,7 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\source\github\TheGarage\w8client\TheGarage\TheGarage\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2013-04-22T18:44:29.573</Modified>
+      <Modified>2013-04-22T22:45:31.117</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

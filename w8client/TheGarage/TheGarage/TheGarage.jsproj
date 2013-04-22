@@ -47,7 +47,8 @@
     <TargetPlatformIdentifier>Windows</TargetPlatformIdentifier>
     <TargetPlatformVersion>8.0</TargetPlatformVersion>
     <DefaultLanguage>en-US</DefaultLanguage>
-    <PackageCertificateKeyFile>TheGarage_TemporaryKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateKeyFile>TheGarage_StoreKey.pfx</PackageCertificateKeyFile>
+    <PackageCertificateThumbprint>D2BF54E8A8A918D8DF56B21CEA65CCAD08FBA54F</PackageCertificateThumbprint>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="package.appxmanifest">
@@ -63,6 +64,8 @@
     <Content Include="images\widelogo.png" />
     <Content Include="js\default.js" />
     <Content Include="js\navigator.js" />
+    <None Include="TheGarage_StoreKey.pfx" />
+    <None Include="Package.StoreAssociation.xml" />
     <Content Include="packages.config" />
     <Content Include="pages\home\home.css" />
     <Content Include="pages\home\home.html" />

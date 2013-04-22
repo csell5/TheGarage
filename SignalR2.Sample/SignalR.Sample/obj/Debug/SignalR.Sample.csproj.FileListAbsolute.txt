@@ -82,3 +82,16 @@ C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\bin\Microsoft.Owin.Hos
 C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\bin\Newtonsoft.Json.xml
 C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\obj\Debug\SignalR.Sample.dll
 C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\obj\Debug\SignalR.Sample.pdb
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\obj\Debug\SignalR.Sample.csprojResolveAssemblyReference.cache
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\bin\Dapper.dll
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\bin\NotificationsExtensions.dll
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\bin\System.Net.Http.Formatting.dll
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\bin\System.Web.Http.dll
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\bin\System.Web.Http.WebHost.dll
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\bin\WnsRecipe.dll
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\bin\Dapper.pdb
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\bin\Dapper.xml
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\bin\System.Net.Http.Formatting.xml
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\bin\System.Web.Http.xml
+C:\source\github\TheGarage\SignalR2.Sample\SignalR.Sample\bin\System.Web.Http.WebHost.xml

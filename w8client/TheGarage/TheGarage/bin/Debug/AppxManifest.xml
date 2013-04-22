@@ -7,10 +7,10 @@
 
     For more information on package manifest files, see http://go.microsoft.com/fwlink/?LinkID=241727
   -->
-  <Identity Name="5093849c-b29e-42c2-b2e3-4da016224eaa" Version="1.0.0.0" Publisher="CN=Clark" ProcessorArchitecture="neutral" />
+  <Identity Name="32361ClarkSell.theGarage" Version="1.0.0.0" Publisher="CN=E52C30A2-E897-42F9-8D37-1F9E26313F35" ProcessorArchitecture="neutral" />
   <Properties>
-    <DisplayName>TheGarage</DisplayName>
-    <PublisherDisplayName>Clark</PublisherDisplayName>
+    <DisplayName>theGarage</DisplayName>
+    <PublisherDisplayName>Clark Sell</PublisherDisplayName>
     <Logo>images\storelogo.png</Logo>
   </Properties>
   <Prerequisites>
@@ -22,7 +22,7 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <VisualElements DisplayName="TheGarage" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="TheGarage" ForegroundText="light" BackgroundColor="#000000">
+      <VisualElements DisplayName="theGarage" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="TheGarage" ForegroundText="light" BackgroundColor="#000000" ToastCapable="true">
         <DefaultTile ShowName="noLogos" WideLogo="images\widelogo.png" />
         <SplashScreen Image="images\splashscreen.png" BackgroundColor="#000000" />
       </VisualElements>

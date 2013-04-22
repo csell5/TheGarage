@@ -1,6 +1,6 @@
-﻿using System.Diagnostics;
-using Microsoft.AspNet.SignalR;
+﻿using Microsoft.AspNet.SignalR;
 using Microsoft.AspNet.SignalR.Hubs;
+using System.Diagnostics;
 
 namespace SignalR.Sample
 {
