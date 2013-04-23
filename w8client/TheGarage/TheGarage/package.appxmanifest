@@ -15,7 +15,7 @@
   </Resources>
   <Applications>
     <Application Id="App" StartPage="default.html">
-      <VisualElements DisplayName="theGarage" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="TheGarage" ForegroundText="light" BackgroundColor="#000000" ToastCapable="true">
+      <VisualElements DisplayName="theGarage" Logo="images\logo.png" SmallLogo="images\smalllogo.png" Description="TheGarage" ForegroundText="light" BackgroundColor="#1d1d1d" ToastCapable="true">
         <DefaultTile ShowName="noLogos" WideLogo="images\widelogo.png" />
         <SplashScreen Image="images\splashscreen.png" BackgroundColor="#000000" />
       </VisualElements>

@@ -12,13 +12,10 @@ namespace SignalR.Sample
         {
             SignalRConfig.ConfigureSignalR(GlobalHost.DependencyResolver, GlobalHost.HubPipeline);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
-<<<<<<< HEAD
             //BackgroundThread.Start();
-=======
 
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             BackgroundThread.Start();
->>>>>>> d4c3840cc1d0d1447f37f443c6e9c6d3b392267b
         }
 
         protected void Session_Start(object sender, EventArgs e)

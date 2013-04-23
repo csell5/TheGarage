@@ -44,7 +44,7 @@ namespace theGarage.PushNotifications
                     errorCallback = errorResult;
 
                     var title = "theGarage";
-                    var subText = String.Format("thaGarage {0}: {1}", device, status);
+                    var subText = String.Format("{0}: {1}", device, status);
 
                     var tileNotification = TileContentFactory.CreateTileWideText01();
 
