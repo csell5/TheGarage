@@ -29,12 +29,12 @@ namespace GarageTestConsole
     /// <summary>
     /// Server to Client Communication (Requesting Data)
     /// </summary>
-    public class Request
-    {
-        public int Version { get; set; }
-        public RequestType MessageType { get; set; }
-        public string Payload { get; set; }
-    }
+    //public class Request
+    //{
+    //    public int Version { get; set; }
+    //    public RequestType MessageType { get; set; }
+    //    public string Payload { get; set; }
+    //}
 
     public class SignOnRequest
     {
@@ -106,23 +106,20 @@ namespace GarageTestConsole
         }
 
         
-
         static void ReadConfiguration()
         {
-            if (File.Exists("Device.config"))
+            if (!File.Exists("Device.config")) return;
+
+            var configDoc = XDocument.Load("Device.config");
+
+            foreach (var device in configDoc.Descendants("Device"))
             {
-                var configDoc = XDocument.Load("Device.config");
-
-                foreach (var device in configDoc.Descendants("Device"))
-                {
-                    DeviceList.Add(device.Attribute("name").Value,
-                                    new Device(device.Attribute("name").Value, device.Attribute("deviceType").Value,
-                                               device.Attribute("deviceUrl").Value));
-                }
-
-
+                DeviceList.Add(device.Attribute("name").Value,
+                               new Device(device.Attribute("name").Value, device.Attribute("deviceType").Value,
+                                          device.Attribute("deviceUrl").Value));
             }
         }
+        
 
         private static void Main()
         {
@@ -145,9 +142,6 @@ namespace GarageTestConsole
             Proxy.On<string>("ActivateSoftLock", ActivateSoftLock);
             Proxy.On<string>("RequestStatus", RequestStatus);
 
-            //proxy.On<FromServerToClientData>("Broadcast", Broadcast);
-            //proxy.On<string>("BroadcastToGroup", BroadcastToGroup);
-            //proxy.On<FromServerToClientData>("OthersCallback", OthersCallback);
             Connection.Start().Wait();
 
             var identityPayload = new DeviceHubIdentity(new NetworkCredential { UserName = locationId, Password = pw }, Connection.ConnectionId)
