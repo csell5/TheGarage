@@ -186,3 +186,9 @@ C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\zh-Hant\System.Spatial.resources
 C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\obj\Debug\TheGarageMvc.csprojResolveAssemblyReference.cache
 C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\obj\Debug\TheGarageMvc.dll
 C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\obj\Debug\TheGarageMvc.pdb
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Dapper.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.WindowsAzure.Configuration.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\NotificationsExtensions.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\WnsRecipe.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Dapper.pdb
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Dapper.xml
