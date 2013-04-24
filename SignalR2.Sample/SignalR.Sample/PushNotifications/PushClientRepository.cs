@@ -15,7 +15,8 @@ namespace theGarage.PushNotifications
 
         public PushClientRepository()
         {
-            _connString = CloudConfigurationManager.GetSetting("dbContext");
+            //_connString = CloudConfigurationManager.GetSetting("dbContext");
+            _connString = WebConfigurationManager.ConnectionStrings["dbContext"].ConnectionString;
         }
 
         public List<PushClient> GetAll()

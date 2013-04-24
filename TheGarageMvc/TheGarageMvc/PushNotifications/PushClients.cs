@@ -1,7 +1,7 @@
 ﻿
 using System.ComponentModel.DataAnnotations;
 
-namespace theGarage.PushNotifications
+namespace TheGarageMvc.PushNotifications
 {
     public class PushClient
     {

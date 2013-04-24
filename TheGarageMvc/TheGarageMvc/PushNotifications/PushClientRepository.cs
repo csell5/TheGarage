@@ -1,21 +1,18 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data.SqlClient;
 using System.Linq;
-using System.Web;
-
+using System.Web.Configuration;
 using Dapper;
-using Microsoft.WindowsAzure;
 
-namespace theGarage.PushNotifications
+namespace TheGarageMvc.PushNotifications
 {
     public class PushClientRepository
     {
-        string _connString = string.Empty;
+        readonly string _connString = string.Empty;
 
         public PushClientRepository()
         {
-            _connString = CloudConfigurationManager.GetSetting("dbContext");
+             _connString = WebConfigurationManager.ConnectionStrings["dbContext"].ConnectionString;
         }
 
         public List<PushClient> GetAll()

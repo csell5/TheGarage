@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace theGarage.PushNotifications
+namespace TheGarageMvc.PushNotifications
 {
     public sealed class DataCache
     {

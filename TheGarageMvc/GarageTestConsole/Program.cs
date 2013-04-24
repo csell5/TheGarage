@@ -1,5 +1,5 @@
-﻿using GarageTestConsole.Devices;
-//using GarageTestConsole.Hubs;
+﻿using System.Web.Security;
+using GarageTestConsole.Devices;
 using GarageTestConsole.Security;
 using Microsoft.AspNet.SignalR.Client.Hubs;
 using Newtonsoft.Json;
@@ -134,7 +134,18 @@ namespace GarageTestConsole
             var pw = ConfigurationManager.AppSettings["Password"];
 
             // Connect to the service
+            //Connection = new HubConnection(parentHub);
+
             Connection = new HubConnection(parentHub);
+            //{
+            //    CookieContainer = new CookieContainer()
+            //};
+
+            //var cookie = GetAuthCookie(parentHub, "marknic@marknic.net", "pass@word1");
+
+            //Connection.CookieContainer.Add(cookie);
+
+
             Proxy = Connection.CreateHubProxy("DeviceCommunicationHub");
 
             Proxy.On<int, string>("ActivateDoor", ActivateDoor);
@@ -142,7 +153,9 @@ namespace GarageTestConsole
             Proxy.On<string>("ActivateSoftLock", ActivateSoftLock);
             Proxy.On<string>("RequestStatus", RequestStatus);
 
-            Connection.Start().Wait();
+            var startTask = Connection.Start();
+                
+            startTask.Wait();
 
             var identityPayload = new DeviceHubIdentity(new NetworkCredential { UserName = locationId, Password = pw }, Connection.ConnectionId)
                 .EncryptAndEncode(key, initializationVector);
@@ -163,9 +176,36 @@ namespace GarageTestConsole
 
         }
 
+        private static Cookie GetAuthCookie(string baseUrl, string user, string pass)
+        {
+            var http = WebRequest.Create(baseUrl + "Account/Login") as HttpWebRequest;
+            http.AllowAutoRedirect = false;
+            http.Method = "POST";
+            http.ContentType = "application/x-www-form-urlencoded";
+            http.CookieContainer = new CookieContainer();
+            var postData = "UserName=" + user + "&Password=" + pass + "&RememberMe=false&returnUrl=http://localhost/";
+            byte[] dataBytes = System.Text.Encoding.UTF8.GetBytes(postData);
+            http.ContentLength = dataBytes.Length;
+            using (var postStream = http.GetRequestStream())
+            {
+                postStream.Write(dataBytes, 0, dataBytes.Length);
+            }
+            var httpResponse = http.GetResponse() as HttpWebResponse;
+            var cookie = httpResponse.Cookies[FormsAuthentication.FormsCookieName];
+            httpResponse.Close();
+            return cookie;
+        }
+
         //private static void SignalRMessage(string obj)
         //{
         //    Console.WriteLine(obj);
         //}
+    }
+
+    public class LoginModel
+    {
+        public string UserName { get; set; }
+        public string Password { get; set; }
+        public bool RememberMe { get; set; }
     }
 }

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ServiceConfiguration serviceName="TheGarageCloud" xmlns="http://schemas.microsoft.com/ServiceHosting/2008/10/ServiceConfiguration" osFamily="3" osVersion="*" schemaVersion="2012-10.1.8">
+  <Role name="TheGarageMvc">
+    <Instances count="1" />
+    <ConfigurationSettings>
+      <Setting name="Microsoft.WindowsAzure.Plugins.Diagnostics.ConnectionString" value="DefaultEndpointsProtocol=https;AccountName=azuredeploystorage;AccountKey=fjsXu+spPxpXF/NKylk29ALN5sO/Bzpqiel67k71o8fTnpkPhkGEQVBjeT9VVzKJS/rOA4lEs/Ags6EbCzdLkA==" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.Enabled" value="true" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountUsername" value="marknic" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountEncryptedPassword" value="MIIBnQYJKoZIhvcNAQcDoIIBjjCCAYoCAQAxggFOMIIBSgIBADAyMB4xHDAaBgNVBAMME1dpbmRvd3MgQXp1cmUgVG9vbHMCEFaLCMpMUuSHQZOHYhLkQZ8wDQYJKoZIhvcNAQEBBQAEggEAdN743MFflFWxLl7CFTmFttMDGHbgZszOohFKShACe+MNbqpiUd73XF5YKRiwRcT3W12QJaDkvlFN70V3YfYWuOujPGf4/QbrgSgH42PxeciXV8cJG699tdJCGR49baz53BmSySDlL6jsANe9H3RUqUt6FNg7HwDmpsu9UA+v2m5mi/Q8Y9HAoxoA5yNcom39+LmIaS1QpnIQTng33rP3nhr+QRf5KaVhTTziucdMq55HDh8AJuScyAEp+QmaFawFXrL8s5e4P4T0ul6dHODAFhd1b4ZDcfjqPekR+kmydgXJd+NuYDq8xqgMVw9IUFa+bdiOhDMZaLLk9axIXgfYPzAzBgkqhkiG9w0BBwEwFAYIKoZIhvcNAwcECNKEady+y2RIgBBEyXxDKD58ElzgBU03+77b" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteAccess.AccountExpiration" value="2014-04-24T23:59:59.0000000-05:00" />
+      <Setting name="Microsoft.WindowsAzure.Plugins.RemoteForwarder.Enabled" value="true" />
+    </ConfigurationSettings>
+    <Certificates>
+      <Certificate name="Microsoft.WindowsAzure.Plugins.RemoteAccess.PasswordEncryption" thumbprint="A2850BA0A3159F2881D3E406BE4D2FC1B438A50D" thumbprintAlgorithm="sha1" />
+    </Certificates>
+  </Role>
+</ServiceConfiguration>

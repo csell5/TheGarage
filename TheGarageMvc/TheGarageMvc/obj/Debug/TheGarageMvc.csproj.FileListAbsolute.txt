@@ -183,7 +183,6 @@ C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\ko\System.Spatial.resources.dll
 C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\ru\System.Spatial.resources.dll
 C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\zh-Hans\System.Spatial.resources.dll
 C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\zh-Hant\System.Spatial.resources.dll
-C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\obj\Debug\TheGarageMvc.csprojResolveAssemblyReference.cache
 C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\obj\Debug\TheGarageMvc.dll
 C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\obj\Debug\TheGarageMvc.pdb
 C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Dapper.dll
@@ -192,3 +191,10 @@ C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\NotificationsExtensions.dll
 C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\WnsRecipe.dll
 C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Dapper.pdb
 C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Dapper.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\System.IdentityModel.Tokens.ValidatingIssuerNameRegistry.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\obj\Debug\TheGarageMvc.csprojResolveAssemblyReference.cache
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.WindowsAzure.Diagnostics.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.WindowsAzure.StorageClient.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.WindowsAzure.Diagnostics.xml
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\Microsoft.IdentityModel.dll
+C:\_GIT\TheGarage\TheGarageMvc\TheGarageMvc\bin\en\Microsoft.IdentityModel.resources.dll

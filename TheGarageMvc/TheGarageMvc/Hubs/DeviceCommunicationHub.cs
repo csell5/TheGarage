@@ -21,28 +21,28 @@ namespace TheGarageMvc.Hubs
             Password = ConfigurationManager.AppSettings["Password"];
         }
 
-        //public FromServerToClientData Request(FromClientToServerData request)
-        //{
-        //    var response = new FromServerToClientData { Text = "Responding to: " + request.Text };
+        public FromServerToClientData Request(FromClientToServerData request)
+        {
+            var response = new FromServerToClientData { Text = "Responding to: " + request.Text };
 
-        //    if (request.Text == "SendMessage")
-        //    {
-        //        var sendResponse = new FromServerToClientData { Text = "WooHoo!" };
+            if (request.Text == "SendMessage")
+            {
+                var sendResponse = new FromServerToClientData { Text = "WooHoo!" };
 
-        //        Clients.Others.OthersCallback(sendResponse);
-        //    }
+                Clients.Others.OthersCallback(sendResponse);
+            }
 
-        //    if (request.Text == "SendConsole")
-        //    {
-        //        var consoleResponse = new FromServerToClientData { Text = "Calling Mr. Console!", Command = request.Command };
+            if (request.Text == "SendConsole")
+            {
+                var consoleResponse = new FromServerToClientData { Text = "Calling Mr. Console!", Command = request.Command };
 
-        //        Clients.Client(ConsoleKey).ActivateDoor(0, "on");
+                Clients.Client(ConsoleKey).ActivateDoor(0, "on");
 
-        //        Clients.Client(ConsoleKey).OthersCallback(consoleResponse);
-        //    }
+                Clients.Client(ConsoleKey).OthersCallback(consoleResponse);
+            }
 
-        //    return response;
-        //}
+            return response;
+        }
 
         public void OnDoorChange(int id, string command)
         {

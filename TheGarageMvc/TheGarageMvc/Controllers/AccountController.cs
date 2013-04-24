@@ -45,6 +45,23 @@ namespace TheGarageMvc.Controllers
             return View(model);
         }
 
+        [HttpPost]
+        [AllowAnonymous]
+        [ValidateAntiForgeryToken]
+        public ActionResult Login(string userName, string password, bool rememberMe, string returnUrl)
+        {
+            var model = new LoginModel { UserName = userName, Password = password, RememberMe = rememberMe };
+
+            if (ModelState.IsValid && WebSecurity.Login(model.UserName, model.Password, persistCookie: model.RememberMe))
+            {
+                return RedirectToLocal(returnUrl);
+            }
+
+            // If we got this far, something failed, redisplay form
+            ModelState.AddModelError("", "The user name or password provided is incorrect.");
+            return View(model);
+        }
+
         //
         // POST: /Account/LogOff
 

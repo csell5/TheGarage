@@ -1,7 +1,7 @@
 ﻿
 using System.Collections.Generic;
 using System.Web.Http;
-using theGarage.PushNotifications;
+using TheGarageMvc.PushNotifications;
 
 namespace theGarage.API
 {

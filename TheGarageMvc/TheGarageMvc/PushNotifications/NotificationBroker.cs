@@ -4,7 +4,7 @@ using NotificationsExtensions.TileContent;
 using NotificationsExtensions.ToastContent;
 using System;
 
-namespace theGarage.PushNotifications
+namespace TheGarageMvc.PushNotifications
 {
     public class NotificationBroker
     {
