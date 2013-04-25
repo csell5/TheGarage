@@ -63,3 +63,12 @@ C:\_GIT\TheGarage\TheGarageMvc\GarageTestConsole\bin\Debug\GarageTestConsole.pdb
 C:\_GIT\TheGarage\TheGarageMvc\GarageTestConsole\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
 C:\_GIT\TheGarage\TheGarageMvc\GarageTestConsole\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
 C:\_GIT\TheGarage\TheGarageMvc\GarageTestConsole\obj\Debug\GarageTestConsole.csprojResolveAssemblyReference.cache
+C:\source\github\TheGarage\TheGarageMvc\GarageTestConsole\bin\Debug\Device.config
+C:\source\github\TheGarage\TheGarageMvc\GarageTestConsole\bin\Debug\GarageTestConsole.exe.config
+C:\source\github\TheGarage\TheGarageMvc\GarageTestConsole\bin\Debug\GarageTestConsole.exe
+C:\source\github\TheGarage\TheGarageMvc\GarageTestConsole\bin\Debug\GarageTestConsole.pdb
+C:\source\github\TheGarage\TheGarageMvc\GarageTestConsole\bin\Debug\Microsoft.AspNet.SignalR.Core.dll
+C:\source\github\TheGarage\TheGarageMvc\GarageTestConsole\bin\Debug\Microsoft.AspNet.SignalR.Core.xml
+C:\source\github\TheGarage\TheGarageMvc\GarageTestConsole\obj\Debug\GarageTestConsole.csprojResolveAssemblyReference.cache
+C:\source\github\TheGarage\TheGarageMvc\GarageTestConsole\obj\Debug\GarageTestConsole.exe
+C:\source\github\TheGarage\TheGarageMvc\GarageTestConsole\obj\Debug\GarageTestConsole.pdb

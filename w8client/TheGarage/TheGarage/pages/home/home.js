@@ -15,7 +15,7 @@
 
         //TODO: add this to the screen so we don't have to recompile...
 
-        var signalRServer = "http://localhost:18628",
+        var signalRServer = "http://thegarageportal.cloudapp.net",
             hubName = "deviceCommunicationHub";
 
         var connection = $.hubConnection(signalRServer);

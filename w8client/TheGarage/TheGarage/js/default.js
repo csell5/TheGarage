@@ -39,7 +39,7 @@
                     WinJS.xhr({
                         type: "POST",
                         headers: { "Content-Type": "application/json; charset=utf-8" },
-                        url: "http://localhost:18628/api/PushNotifications",
+                        url: "http://thegarageportal.cloudapp.net/api/PushNotifications",
                         data: JSON.stringify(postData)
                     }).then(function (xhr) {
                         if (xhr.status < 200 || xhr.status >= 300) {
