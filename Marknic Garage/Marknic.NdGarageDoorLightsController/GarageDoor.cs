@@ -32,7 +32,7 @@ namespace Marknic.NdGarageDoorLightsController
             TopSensorName = "TopSensor" + doorNumber;
             BottomSensorName = "BottomSensor" + doorNumber;
             DoorSwitchName = "DoorSwitch" + doorNumber;
-            
+
             Name = name;
 
             var topSensor = PortManager.GetInPort(TopSensorName);
@@ -125,7 +125,7 @@ namespace Marknic.NdGarageDoorLightsController
         public bool TopSensorRead()
         {
             var topSensor = PortManager.GetInPort(TopSensorName);
-            
+
             return topSensor != null && topSensor.Read();
         }
 
@@ -150,7 +150,7 @@ namespace Marknic.NdGarageDoorLightsController
             var bottomSensor = PortManager.GetInPort(BottomSensorName);
 
             if ((topSensor == null) || (bottomSensor == null)) { return null; }
-            
+
             var newStatus = StatusValues.DoorUnknown;
 
             var isDoorUp = !topSensor.Read();
@@ -159,7 +159,7 @@ namespace Marknic.NdGarageDoorLightsController
             if (isDoorUp && !isDoorDown)
             {
                 newStatus = StatusValues.DoorUp;
-            } 
+            }
             else if (isDoorDown && !isDoorUp)
             {
                 newStatus = StatusValues.DoorDown;
@@ -172,7 +172,7 @@ namespace Marknic.NdGarageDoorLightsController
 
         public string SerializeJson()
         {
-            return "{\"Name\": \"" + Name + "\", \"Status\": \"" + Status.State + "\", \"Duration\": " + Status.Duration.Seconds + " }";
+            return "{\"Name\": \"" + Name + "\", \"Status\": \"" + Status.State + "\", \"Duration\": " + TimeUtility.ConvertTimeSpanToSeconds(Status.Duration) + " }";
         }
     }
 }

@@ -52,6 +52,7 @@
     <Compile Include="Utility\Constants.cs" />
     <Compile Include="Utility\EventBasedTimer.cs" />
     <Compile Include="Utility\StringUtility.cs" />
+    <Compile Include="Utility\TimeUtility.cs" />
     <Compile Include="Utility\XmlNodeType.cs" />
     <Compile Include="Utility\XmlReader.cs" />
   </ItemGroup>

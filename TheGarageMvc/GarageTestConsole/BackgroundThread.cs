@@ -68,7 +68,7 @@ namespace GarageTestConsole
 
                             Garage.Copy(garage, Application.LastGarageStatus);
 
-                            Console.WriteLine(status);
+                            //Console.WriteLine(status);
                         }
                     }
                     catch (Exception ex)

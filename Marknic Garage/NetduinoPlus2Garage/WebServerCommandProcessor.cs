@@ -7,6 +7,7 @@ using Marknic.Web;
 using Marknic.Web.Interfaces;
 using Marknic.Web.RequestResponse;
 using Marknic.Web.Utility;
+using Microsoft.SPOT;
 using WebServerConstants = NetduinoPlus2Garage.Support.WebServerConstants;
 
 namespace NetduinoPlus2Garage
@@ -72,13 +73,20 @@ namespace NetduinoPlus2Garage
         {
             var returnString = String.Empty;
             string filename;
-            
+
             switch (requestData.Arguments[0].ToLower())
             {
                 case WebServerConstants.Trigger:
+                    try
+                    {
+                        ExecuteCommandRequest(new CommandRequest(requestData.Body));
+                    }
+                    catch (Exception ex)
+                    {
+                        Debug.Print("Exception receiving trigger: " + ex.Message);
 
-                    ExecuteCommandRequest(new CommandRequest(requestData.Body));
-
+                        return WebServerConstants.JsonFailure;
+                    }
                     return WebServerConstants.JsonSuccess;
 
                 case WebServerConstants.Reset:
@@ -94,10 +102,10 @@ namespace NetduinoPlus2Garage
                     return WebServerConstants.JsonSuccess;
 
                 case WebServerConstants.SetValue:
-                    
+
                     int lightCount;
                     int doorCount;
-                    
+
                     if (requestData.QueryParameters.Count < 5)
                     {
                         returnString = Support.Html.MakeHtmlPageWithHome("Not enough information.  Query parameters are missing.");
@@ -162,7 +170,7 @@ namespace NetduinoPlus2Garage
             return returnString;
         }
 
-      
+
 
         private static string DoGet(RequestData requestData)
         {
@@ -197,7 +205,7 @@ namespace NetduinoPlus2Garage
                         body.Append("<table>");
 
                         body.Append("<tr><th>Directories in " + path + "</th><th>&nbsp;</th></tr>");
-                        
+
                         var directories = Directory.GetDirectories(path);
                         var files = Directory.GetFiles(path);
 
@@ -217,7 +225,7 @@ namespace NetduinoPlus2Garage
                             body.Append("<tr><td><a href = \"" + dir.Replace('\\', '/') + "\">" +
                                         dir.Substring(dir.LastIndexOf('\\') + 1) + "</a></td><td>&nbsp;</td></tr>");
                         }
-                        
+
                         body.Append("<tr><td>&nbsp;</td><td>&nbsp;</td></tr>");
                         body.Append("<tr><th>Files in " + path + "</th><th>Size (bytes)</th></tr>");
 

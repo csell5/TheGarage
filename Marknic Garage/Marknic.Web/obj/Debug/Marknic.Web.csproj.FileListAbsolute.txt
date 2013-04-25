@@ -34,3 +34,17 @@ C:\_TfsProjectsVs2012\Robotics\Marknic Garage\Marknic.Web\obj\Debug\be\Marknic.W
 C:\_TfsProjectsVs2012\Robotics\Marknic Garage\Marknic.Web\obj\Debug\be\Marknic.Web.pdbx
 C:\_TfsProjectsVs2012\Robotics\Marknic Garage\Marknic.Web\obj\Debug\le\Marknic.Web.pe
 C:\_TfsProjectsVs2012\Robotics\Marknic Garage\Marknic.Web\obj\Debug\le\Marknic.Web.pdbx
+C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\bin\Debug\le\Marknic.Web.dll
+C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\bin\Debug\be\Marknic.Web.dll
+C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\bin\Debug\le\Marknic.Web.pdb
+C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\bin\Debug\be\Marknic.Web.pdb
+C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\bin\Debug\Marknic.Web.dll
+C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\bin\Debug\Marknic.Web.pdb
+C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\bin\Debug\le\Marknic.Web.pe
+C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\bin\Debug\le\Marknic.Web.pdbx
+C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\bin\Debug\be\Marknic.Web.pe
+C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\bin\Debug\be\Marknic.Web.pdbx
+C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\obj\Debug\Marknic.Web.csprojResolveAssemblyReference.cache
+C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\obj\Debug\TinyCLR_DebugReferences.cache
+C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\obj\Debug\Marknic.Web.dll
+C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\obj\Debug\Marknic.Web.pdb

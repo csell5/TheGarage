@@ -30,7 +30,7 @@ namespace Marknic.Web
     {
         private bool _cancel;
         private readonly Thread _serverThread;
- 
+
         #region Constructors
 
         /// <summary>
@@ -75,7 +75,7 @@ namespace Marknic.Web
 
             // start server
             _cancel = false;
-            
+
             _serverThread.Start();
 
             Debug.Print("Started server in thread " + _serverThread.GetHashCode());
@@ -104,93 +104,106 @@ namespace Marknic.Web
                         if (!connectionSocket.Poll(-1, SelectMode.SelectRead)) continue;
 
                         // Create buffer and receive raw bytes.
+                        var bytes = new byte[connectionSocket.Available];
+
+                        var bytesRead = connectionSocket.Receive(bytes);
+
+                        Thread.Sleep(20);
 
                         var bytesAvailable = connectionSocket.Available;
-                        var bytes = new byte[bytesAvailable];
 
-                        var count = connectionSocket.Receive(bytes);
-
-                        while (count < bytesAvailable)
+                        while (bytesAvailable > 0)
                         {
-                            count += connectionSocket.Receive(bytes, count, bytesAvailable - count, SocketFlags.None);    
-                        }
-                        
-                        if (count > 0)
-                        {
-                            // Convert to string, will include HTTP headers.
-                            var rawData = new string(Encoding.UTF8.GetChars(bytes));
-                            var command = new RequestData(rawData);  // InterpretRequest(rawData);
-
-                            if (command.ArgumentCount > 0)
+                            if (bytes.Length < (bytesRead + bytesAvailable))
                             {
-                                var fileSearchA = command.Query.Replace('/', '\\').ToLower();
-                                var fileSearchB = FileUtility.FileStore + fileSearchA;
+                                var newBytes = new byte[bytesRead + bytesAvailable];
+                                bytes.CopyTo(newBytes, 0);
+                                bytes = newBytes;
+                            }
 
-                                // GET and resource is a file and it was found
-                                if ((command.HttpVerb == RequestData.HttpGet) && File.Exists(fileSearchA))
+                            bytesRead += connectionSocket.Receive(bytes, bytesRead, connectionSocket.Available, SocketFlags.None);
+
+                            bytesAvailable = connectionSocket.Available;
+                        }
+
+                        if (bytesRead <= 0) continue;
+
+                        // Convert to string, will include HTTP headers.
+                        var rawData = new string(Encoding.UTF8.GetChars(bytes));
+                        var command = new RequestData(rawData);  // InterpretRequest(rawData);
+                        if ((command.HttpVerb == "POST") && (command.Body == null))
+                        {
+                            var x = 0;
+                        }
+                        if (command.ArgumentCount > 0)
+                        {
+                            var fileSearchA = command.Query.Replace('/', '\\').ToLower();
+                            var fileSearchB = FileUtility.FileStore + fileSearchA;
+
+                            // GET and resource is a file and it was found
+                            if ((command.HttpVerb == RequestData.HttpGet) && File.Exists(fileSearchA))
+                            {
+                                SendFile(fileSearchA, connectionSocket);
+                            }
+                            else if ((command.HttpVerb == RequestData.HttpGet) && File.Exists(fileSearchB))
+                            {
+                                SendFile(fileSearchB, connectionSocket);
+                            }
+                            // Command received event has been created
+                            else if (CommandReceived != null)
+                            {
+                                var args = new WebCommandEventArgs(command);
+
+                                CommandReceived(this, args);
+
+                                var returnDocument = HtmlSupport.FormatResponse(args.ReturnString);
+                                var returnBytes = Encoding.UTF8.GetBytes(returnDocument);
+                                try
                                 {
-                                    SendFile(fileSearchA, connectionSocket);
+                                    connectionSocket.Send(returnBytes, 0, returnBytes.Length, SocketFlags.None);
                                 }
-                                else if ((command.HttpVerb == RequestData.HttpGet) && File.Exists(fileSearchB))
+                                catch (Exception ex)
                                 {
-                                    SendFile(fileSearchB, connectionSocket);
-                                } 
-                                    // Command received event has been created
-                                else if (CommandReceived != null)
-                                {
-                                    var args = new WebCommandEventArgs(command);
-
-                                    CommandReceived(this, args);
-
-                                    var returnDocument = HtmlSupport.FormatResponse(args.ReturnString);
-                                    var returnBytes = Encoding.UTF8.GetBytes(returnDocument);
-                                    try
-                                    {
-                                        connectionSocket.Send(returnBytes, 0, returnBytes.Length, SocketFlags.None);
-                                    }
-                                    catch (Exception ex)
-                                    {
-                                        Debug.Print("Socket error responding to command: " + ex.Message);
-                                    }
-                                }
-                                else
-                                {
-                                    using (var sourceFile = new FileStream(fileSearchB, FileMode.Open))
-                                    {
-                                        var output = new byte[sourceFile.Length];
-                                        var returnBytesRead = sourceFile.Read(output, 0, (int) sourceFile.Length);
-
-                                        try
-                                        {
-                                            connectionSocket.Send(output, 0, returnBytesRead, SocketFlags.None);
-                                        }
-                                        catch (Exception ex)
-                                        {
-                                            Debug.Print("Socket error sending file: " + ex.Message);
-                                        }
-                                    }
+                                    Debug.Print("Socket error responding to command: " + ex.Message);
                                 }
                             }
                             else
                             {
-                                var failed = true;
-                                var indexFile = FileUtility.FileStore + "index.htm";
+                                using (var sourceFile = new FileStream(fileSearchB, FileMode.Open))
+                                {
+                                    var output = new byte[sourceFile.Length];
+                                    var returnBytesRead = sourceFile.Read(output, 0, (int)sourceFile.Length);
 
-                                try
-                                {
-                                    failed = !SendFile(indexFile, connectionSocket);
+                                    try
+                                    {
+                                        connectionSocket.Send(output, 0, returnBytesRead, SocketFlags.None);
+                                    }
+                                    catch (Exception ex)
+                                    {
+                                        Debug.Print("Socket error sending file: " + ex.Message);
+                                    }
                                 }
-                                catch (Exception ex)
-                                {
-                                    Debug.Print("SendFile failed: " + ex.Message);
-                                }
+                            }
+                        }
+                        else
+                        {
+                            var failed = true;
+                            var indexFile = FileUtility.FileStore + "index.htm";
 
-                                if (failed)
-                                {
-                                    // Show default page
-                                    var returnBytes = Encoding.UTF8.GetBytes(HtmlSupport.FormatResponse(HtmlSupport.ShowErrorPage, "htm"));
-                                    connectionSocket.Send(returnBytes, 0, returnBytes.Length, SocketFlags.None);
-                                }
+                            try
+                            {
+                                failed = !SendFile(indexFile, connectionSocket);
+                            }
+                            catch (Exception ex)
+                            {
+                                Debug.Print("SendFile failed: " + ex.Message);
+                            }
+
+                            if (failed)
+                            {
+                                // Show default page
+                                var returnBytes = Encoding.UTF8.GetBytes(HtmlSupport.FormatResponse(HtmlSupport.ShowErrorPage, "htm"));
+                                connectionSocket.Send(returnBytes, 0, returnBytes.Length, SocketFlags.None);
                             }
                         }
                     }
@@ -256,7 +269,7 @@ namespace Marknic.Web
         private static void ListNetworkInterfaces()
         {
             var networkInterfaces = NetworkInterface.GetAllNetworkInterfaces();
-            
+
             Debug.Print("Network Interface Count: " + networkInterfaces.Length);
 
             Debug.Print("IP Addresses:");

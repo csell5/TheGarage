@@ -14,7 +14,7 @@ namespace Marknic.NdGarageDoorLightsController
         private readonly string _relayPortName;
 
         public string Name { get; private set; }
-        
+
         public IStatus Status { get; private set; }
 
         public bool CircuitOnValue { get; private set; }
@@ -117,7 +117,7 @@ namespace Marknic.NdGarageDoorLightsController
         public IStatus UpdateStatus()
         {
             var switchPort = PortManager.GetInPort(_switchPortName);
-            
+
             if (switchPort == null) return null;
 
             var switchVal = switchPort.Read();
@@ -140,7 +140,7 @@ namespace Marknic.NdGarageDoorLightsController
 
         public string SerializeJson()
         {
-            return "{\"Name\": \"" + Name + "\", \"Status\": \"" + Status.State + "\", \"Duration\": " + Status.Duration.Seconds + " }";
+            return "{\"Name\": \"" + Name + "\", \"Status\": \"" + Status.State + "\", \"Duration\": " + TimeUtility.ConvertTimeSpanToSeconds(Status.Duration) + " }";
         }
     }
 }

@@ -15,3 +15,16 @@ C:\_TfsProjectsVs2012\Robotics\Marknic Garage\Marknic.TestRunner.Rigging\obj\Deb
 C:\_TfsProjectsVs2012\Robotics\Marknic Garage\Marknic.TestRunner.Rigging\obj\Debug\be\Marknic.TestRunner.Rigging.pdbx
 C:\_TfsProjectsVs2012\Robotics\Marknic Garage\Marknic.TestRunner.Rigging\obj\Debug\le\Marknic.TestRunner.Rigging.pe
 C:\_TfsProjectsVs2012\Robotics\Marknic Garage\Marknic.TestRunner.Rigging\obj\Debug\le\Marknic.TestRunner.Rigging.pdbx
+C:\_GIT\TheGarage\Marknic Garage\Marknic.TestRunner.Rigging\bin\Debug\le\Marknic.TestRunner.Rigging.dll
+C:\_GIT\TheGarage\Marknic Garage\Marknic.TestRunner.Rigging\bin\Debug\be\Marknic.TestRunner.Rigging.dll
+C:\_GIT\TheGarage\Marknic Garage\Marknic.TestRunner.Rigging\bin\Debug\le\Marknic.TestRunner.Rigging.pdb
+C:\_GIT\TheGarage\Marknic Garage\Marknic.TestRunner.Rigging\bin\Debug\be\Marknic.TestRunner.Rigging.pdb
+C:\_GIT\TheGarage\Marknic Garage\Marknic.TestRunner.Rigging\bin\Debug\Marknic.TestRunner.Rigging.dll
+C:\_GIT\TheGarage\Marknic Garage\Marknic.TestRunner.Rigging\bin\Debug\Marknic.TestRunner.Rigging.pdb
+C:\_GIT\TheGarage\Marknic Garage\Marknic.TestRunner.Rigging\bin\Debug\le\Marknic.TestRunner.Rigging.pe
+C:\_GIT\TheGarage\Marknic Garage\Marknic.TestRunner.Rigging\bin\Debug\le\Marknic.TestRunner.Rigging.pdbx
+C:\_GIT\TheGarage\Marknic Garage\Marknic.TestRunner.Rigging\bin\Debug\be\Marknic.TestRunner.Rigging.pe
+C:\_GIT\TheGarage\Marknic Garage\Marknic.TestRunner.Rigging\bin\Debug\be\Marknic.TestRunner.Rigging.pdbx
+C:\_GIT\TheGarage\Marknic Garage\Marknic.TestRunner.Rigging\obj\Debug\TinyCLR_DebugReferences.cache
+C:\_GIT\TheGarage\Marknic Garage\Marknic.TestRunner.Rigging\obj\Debug\Marknic.TestRunner.Rigging.dll
+C:\_GIT\TheGarage\Marknic Garage\Marknic.TestRunner.Rigging\obj\Debug\Marknic.TestRunner.Rigging.pdb

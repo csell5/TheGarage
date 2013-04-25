@@ -34,6 +34,8 @@ namespace Marknic.Web.RequestResponse
         /// <param name="jsonInput">JSON string input to be parsed</param>
         public CommandRequest(string jsonInput)
         {
+            if (jsonInput == null) return;
+
             var parmCounter = 0;
             jsonInput = jsonInput.Trim(new[] {'{', '}'});
 

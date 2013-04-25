@@ -9,5 +9,6 @@ namespace NetduinoPlus2Garage.Support
         public const string Reset = "reset";
         public const string Trigger = "trigger";
         public const string JsonSuccess = "{\"success\": \"success\"}";
+        public const string JsonFailure = "{\"failure\": \"JSON not received properly\"}";
     }
 }

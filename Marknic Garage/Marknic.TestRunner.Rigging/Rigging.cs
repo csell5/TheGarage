@@ -51,7 +51,15 @@ namespace Marknic.TestRunner.Rigging
             if (expected != actual)
             {
                 throw new Exception("Expected value: " + expected + " - Actual value: " + actual);
-            }   
+            }
+        }
+
+        public static void AreEqual(long expected, long actual)
+        {
+            if (expected != actual)
+            {
+                throw new Exception("Expected value: " + expected + " - Actual value: " + actual);
+            }
         }
 
         public static void AreEqual(string expected, string actual)
@@ -106,7 +114,7 @@ namespace Marknic.TestRunner.Rigging
         public static void ExecuteTests(Assembly assembly)
         {
             var types = assembly.GetTypes();
-            
+
             foreach (var type in types)
             {
                 var methodList = type.GetMethods(BindingFlags.Public | BindingFlags.Instance);

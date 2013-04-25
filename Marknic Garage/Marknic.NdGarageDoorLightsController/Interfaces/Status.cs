@@ -1,4 +1,5 @@
 using System;
+using Marknic.NdGarageDoorLightsController.Utility;
 
 namespace Marknic.NdGarageDoorLightsController.Interfaces
 {
@@ -44,8 +45,7 @@ namespace Marknic.NdGarageDoorLightsController.Interfaces
 
         public string SerializeJson()
         {
-            return "{\"State\": \"" + State + "\", \"Duration\": " + Duration.Seconds + " }";
-
+            return "{\"State\": \"" + State + "\", \"Duration\": " + TimeUtility.ConvertTimeSpanToSeconds(Duration) + " }";
         }
     }
 }

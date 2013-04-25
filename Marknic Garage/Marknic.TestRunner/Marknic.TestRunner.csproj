@@ -48,6 +48,7 @@
     <Compile Include="HttpUtilityTests.cs" />
     <Compile Include="Stubs\TestInPort.cs" />
     <Compile Include="Stubs\TestOutPort.cs" />
+    <Compile Include="TimeUtilityTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.SPOT.Hardware" />
