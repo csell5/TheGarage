@@ -53,9 +53,9 @@
             $("#lockButton").click(function () {
                 
                 if (isDoorLocked) {
-                    proxy.invoke("ActivateSoftLock", "false");
+                    proxy.invoke("ActivateSoftLock", "unlock");
                 } else {
-                    proxy.invoke("ActivateSoftLock", "true");
+                    proxy.invoke("ActivateSoftLock", "lock");
                 }
 
                 //TODO: THERE IS ALSO A TOGGLE STATE
@@ -90,7 +90,7 @@
 
                     break;
                 default:
-            };
+            }
 
         });
 
@@ -118,7 +118,7 @@
 
                     default:
                         //WHAT HERE
-                };
+                }
 
             } else if (id === 1) {
 
@@ -141,7 +141,7 @@
 
                     default:
                         //WHAT HERE
-                };
+                }
             }
 
         });
