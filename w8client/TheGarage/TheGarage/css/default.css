@@ -1,4 +1,11 @@
-﻿body {
+﻿
+
+@font-face {
+    font-family: "cherry";
+    src: url("/fonts/CherryCreamSoda.woff") format('woff');
+}
+
+body {
     background-color: black;
 }
 

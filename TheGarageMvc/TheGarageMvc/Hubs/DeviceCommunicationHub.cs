@@ -73,6 +73,11 @@ namespace TheGarageMvc.Hubs
         public void OnLockChange(string name, bool garage, bool hardlock, bool softlock)
         {
             Clients.All.OnLockChange(name, garage, hardlock, softlock);
+
+            if ( hardlock || softlock ) 
+                _notificationBroker.Send("Garage", "Locked");
+            else if (!hardlock && !softlock )
+                _notificationBroker.Send("Garage", "UnLocked");
         }
 
         public void ActivateDoor(int id, string command)

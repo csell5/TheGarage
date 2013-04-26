@@ -9,7 +9,7 @@
         }
     });
 
-    var isInsideLightOn, isOutsideLightOn, isDoorOpen;
+    var isInsideLightOn, isOutsideLightOn, isDoorOpen, isDoorLocked;
 
     function initSignalR() {
 
@@ -44,6 +44,18 @@
                     proxy.invoke("ActivateDoor", "0", "close");
                 } else {
                     proxy.invoke("ActivateDoor", "0", "open");
+                }
+
+                //TODO: THERE IS ALSO A TOGGLE STATE
+            });
+
+            
+            $("#lockButton").click(function () {
+                
+                if (isDoorLocked) {
+                    proxy.invoke("ActivateSoftLock", "unlock");
+                } else {
+                    proxy.invoke("ActivateSoftLock", "lock");
                 }
 
                 //TODO: THERE IS ALSO A TOGGLE STATE
@@ -132,6 +144,27 @@
                 };
             }
 
+        });
+
+        proxy.on('OnLockChange', function (name, garage, hardlock, softlock) {
+            
+            if (hardlock || softlock) {
+                isDoorLocked = true;
+                //update UI text here.
+                $("#lockStatus").text("Locked");
+            }
+
+            if (hardlock) {
+                // do something to represent the hardlock
+                $("#hardLock").show();
+            }
+
+            if (!hardlock && !softlock) {
+                isDoorLocked = false;
+                
+                $("#lockStatus").text("UnLocked");
+                $("#hardLock").hide();
+            }
         });
 
     }
