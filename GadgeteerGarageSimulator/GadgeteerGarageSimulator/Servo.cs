@@ -34,7 +34,7 @@ namespace GadgeteerGarageSimulator
             };
 
             // Typical settings                        
-            _range[0] = 1605000;  // Was 1415000
+            _range[0] = 1415000;  // Was 1415000
             _range[1] = 2250000;  // Was 2250000
         }
 

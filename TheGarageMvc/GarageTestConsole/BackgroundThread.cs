@@ -11,8 +11,6 @@ namespace GarageTestConsole
         {
             ThreadPool.QueueUserWorkItem(_ =>
             {
-                //var hubContext = GlobalHost.ConnectionManager.GetHubContext<DeviceCommunicationHub>();
-
                 while (true)
                 {
                     try
@@ -27,19 +25,18 @@ namespace GarageTestConsole
                             {
                                 Application.LastGarageStatus = new Garage();
 
-                                //hubContext.Clients.All.OnLockChange(garage.Name, garage.Locked, garage.HardwareLock, garage.SoftLock);
+                                Garage.Copy(garage, Application.LastGarageStatus);
+
                                 Application.Proxy.Invoke("OnLockChange", garage.Name, garage.Locked, garage.HardwareLock, garage.SoftLock);
 
                                 for (var i = 0; i < garage.Door.Length; i++)
                                 {
                                     Application.Proxy.Invoke("OnDoorChange", i, garage.Door[i].Status);
-                                    //hubContext.Clients.All.OnDoorChange(i, garage.Door[i].Status);
                                 }
 
                                 for (var i = 0; i < garage.Light.Length; i++)
                                 {
                                     Application.Proxy.Invoke("OnLightChange", i, garage.Light[i].Status);
-                                    //hubContext.Clients.All.OnDoorChange(i, garage.Light[i].Status);
                                 }
                             }
                             else
