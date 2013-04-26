@@ -55,6 +55,7 @@
       <SubType>Designer</SubType>
     </AppxManifest>
     <Content Include="css\default.css" />
+    <Content Include="fonts\CherryCreamSoda.woff" />
     <Content Include="images\black-car-wallpaper.png" />
     <Content Include="images\garage.svg" />
     <Content Include="images\logo.png" />
