@@ -1,1 +1,1 @@
-C:\source\github\TheGarage\w8client\TheGarage\TheGarage\TheGarage.jsproj;neutral
+C:\_GIT\TheGarage\w8client\TheGarage\TheGarage\TheGarage.jsproj;neutral

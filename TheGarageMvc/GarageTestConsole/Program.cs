@@ -96,7 +96,7 @@ namespace GarageTestConsole
 
         static void RequestStatus(string id)
         {
-            Proxy.Invoke("OnLockedChange", LastGarageStatus.Name, LastGarageStatus.Locked, LastGarageStatus.HardwareLock, LastGarageStatus.SoftLock);
+            Proxy.Invoke("OnLockChange", LastGarageStatus.Name, LastGarageStatus.Locked, LastGarageStatus.HardwareLock, LastGarageStatus.SoftLock);
 
             for (var i = 0; i < LastGarageStatus.Door.Length; i++)
                 Proxy.Invoke("OnDoorChange", i, LastGarageStatus.Door[i].Status);
