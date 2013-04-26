@@ -53,9 +53,9 @@
             $("#lockButton").click(function () {
                 
                 if (isDoorLocked) {
-                    proxy.invoke("ActivateSoftLock", "unlock");
+                    proxy.invoke("ActivateSoftLock", "false");
                 } else {
-                    proxy.invoke("ActivateSoftLock", "lock");
+                    proxy.invoke("ActivateSoftLock", "true");
                 }
 
                 //TODO: THERE IS ALSO A TOGGLE STATE
@@ -148,6 +148,8 @@
 
         proxy.on('OnLockChange', function (name, garage, hardlock, softlock) {
             
+            $("#hardLock").hide();
+
             if (hardlock || softlock) {
                 isDoorLocked = true;
                 //update UI text here.
@@ -166,7 +168,5 @@
                 $("#hardLock").hide();
             }
         });
-
     }
-
 })();
