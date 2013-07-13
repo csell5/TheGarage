@@ -39,7 +39,7 @@ namespace GarageTestConsole
 
             httpWebRequest.Method = WebRequestMethods.Http.Post;
             httpWebRequest.ServicePoint.Expect100Continue = false;
-            httpWebRequest.Timeout = 20000;
+            httpWebRequest.Timeout = 4000;
 
             httpWebRequest.ContentType = "application/json";
 
@@ -53,6 +53,8 @@ namespace GarageTestConsole
             using (var stream = httpWebRequest.GetRequestStream())
             {
                 stream.Write(jsonData, 0, jsonData.Length);
+                stream.Flush();
+                stream.Close();
             }
 
             var httpResponse = (HttpWebResponse) httpWebRequest.GetResponse();

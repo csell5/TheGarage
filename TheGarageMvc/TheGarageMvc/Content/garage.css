@@ -16,69 +16,49 @@ strong, b {
     font-weight: bold;
     font-size: 2.0em;
 }
-/* HEADLINES */
-/*H1, H3, H4, H5, H6 {
-    color : #D21E70;
-    font-weight : normal;
-    margin : 0 0 15px 0;
-    padding : 0 0 15px 0;
-    text-align : center;
-    }
-    H1 {
-        background : url(../images/hr.png) no-repeat 0 22px;
-        font-size : 15px;
-        padding : 0 0 10px 0;
-        }
-    H4, H5, H6 {
-        background : url(../images/hr2.png) no-repeat 0 22px;
-        font-size : 14px;
-        margin : 0 0 10px 0;
-        width : 250px;
-        }*/
 
+.garageControlBody {
+    width: 100%;
+}
 
+.centerImage {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.titleBar {
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
 /* Wrappers */
 .garageManagement {
-    width: 700px;
+    width: 720px;
     margin-left: auto;
     margin-right: auto;
 }
 
 #garageControl {
-    top: 220px;
+    top: 20px;
     margin: 0 auto;
     position: relative;
 }
 
 .garageLocks {
     font-size: 1.4em;
-    top: 0px;
-    float: left;
+
 }
 
-#softlockInput {
+/*#softlockInput {
     top: 100px;
     left: 320px;
     width: 100%;
     position: relative;
-}
+}*/
 
-#softlock {
-    position: absolute;
-    width: 50%;
-    margin: 0 auto;
-}
 
-#hardlock {
-    position: absolute;
-    top: 50px;
-    left: auto;
-}
 
-#garageLock {
-    position: absolute;
-    top: 20px;
-}
 
 #light0Group {
     position: absolute;
@@ -90,7 +70,7 @@ strong, b {
     position: absolute;
     top: 0;
     left: 130px;
-    width: 545px;
+    width: 454px;
 }
 
 #light1Group {
@@ -104,12 +84,12 @@ strong, b {
     left: 180px;
 }
 
-#garageIcon {
+/*#garageIcon {
     position: absolute;
     top: 40px;
     left: 270px;
     margin: 0 auto;
-}
+}*/
 
 .vidcam {
     display: block;

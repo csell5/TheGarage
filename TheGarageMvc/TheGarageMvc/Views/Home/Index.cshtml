@@ -3,46 +3,53 @@
 }
 
 
-<div class="garageManagement">
-        <h2>Garage Controller - <span id="garageName"></span></h2>
-    <img id="garageIcon" src="~/Images/garageicon.png" alt="theGarage" height="75" width="155" />
-            
-    <div class="garageLocks">
+
+
+<div class="garageControlBody">
+
+    <div class="garageManagement">
+    
+        <h1 class="titleBar">Garage Controller - <span id="garageName"></span></h1>
+
+        <img id="garageIcon" class="centerImage" src="~/Images/garageicon.png" alt="theGarage" height="75" width="155" />
+            <br/>
+        <div class="garageLocks">
                 
-        <div id="garageLock">
-            <span id="garageLockTitle">Garage Status:</span> <span id="garageLockStatus">Unlocked</span>
+            <div class="titleBar">
+                <span id="garageLockTitle">Garage Status:</span> <span id="garageLockStatus">Unlocked</span>
+            </div>
+            <div class="titleBar">
+                <span id="hardlockTitle">Hard Lock:</span> <span id="hardlockStatus">Unlocked</span>
+            </div>
         </div>
-        <div id="hardlock">
-            <span id="hardlockTitle">Hard Lock:</span> <span id="hardlockStatus">Unlocked</span>
+        <br/>
+        <div id="softlockInput">
+            <div id="softlock">
+                <input id="softlockImage" class="centerImage" type="image" src="~/Images/unlocked.png" width="60" height="80" />
+                <div class="titleBar"><span id="softlockTitle">Soft Lock</span> </div>
+            </div>
         </div>
-    </div>
-    <div id="softlockInput">
-        <div id="softlock">
-            <input id="softlockImage" type="image" src="~/Images/unlocked.png" width="60" height="80" />
-            <br/>
-            <span id="softlockTitle">Soft Lock</span> 
-        </div>
-    </div>
-    <div id="garageControl">
+        <div id="garageControl">
 
-        <div id="light0Group">
-            <input id="light0" class="lights" type="image" src="~/Images/lightoff.png" width="83" height="95" /><br/>
-            <span id="light0Title">Inside Lights</span> 
-        </div>
+            <div id="light0Group">
+                <input id="light0" class="lights" type="image" src="~/Images/lightoff.png" width="83" height="95" /><br/>
+                <span id="light0Title">Inside Lights</span> 
+            </div>
 
-        <div id="door0Group">
-            <input id="door0" class="doors" type="image" src="~/Images/closed.png" width="454" height="368" />
-            <br/>
-            <p id="door0Title" >Garage Door</p> 
-        </div>
+            <div id="door0Group">
+                <input id="door0" class="doors" type="image" src="~/Images/closed.png" width="454" height="368" />
+                <div class="titleBar"><span>Garage Door</span> </div>
+                
+            </div>
 
-        <div id="light1Group">
-            <input id="light1" class="lights" type="image" src="~/Images/lightoff.png" width="83" height="95"  /><br/>
-            <span id="light1Title">Outside Lights</span> 
+            <div id="light1Group">
+                <input id="light1" class="lights" type="image" src="~/Images/lightoff.png" width="83" height="95"  />
+                <br/>
+                <span>Outside Lights</span> 
+            </div>
+            @*<button id="#remoteLocal">Switch</button><input id="Button1" type="button" value="button" />*@
         </div>
-                @*<button id="#remoteLocal">Switch</button><input id="Button1" type="button" value="button" />*@
-    </div>
-    @*<div class="vidcam">
+        @*<div class="vidcam">
         
         <div class="remoteCam">
             <h3>Remote</h3>
@@ -66,5 +73,6 @@
         
 
     </div>*@
-</div>
+    </div>
 
+</div>
