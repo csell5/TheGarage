@@ -4,18 +4,6 @@
     var softlockState = false;
     var doorState = ["down", "down"];
 
-  //$.connection.deviceCommunicationHub.client.broadcast = function (value) {
-  //  $('#BroadcastText').html('<pre>Broadcast: ' + value.Now + ' ' + value.Integer + ' ' + value.Text + '</pre>');
-  //};
-
-  //$.connection.deviceCommunicationHub.client.broadcastToGroup = function (value) {
-  //  $('#BroadcastToGroupText').html('<pre>BroadcastToGroup: ' + value + '</pre>');
-  //};
-
-  //$.connection.deviceCommunicationHub.client.othersCallback = function (value) {
-  //  $('#OthersCallbackText').html('<pre>OthersCallback: ' + value.Text + '</pre>');
-  //};
-
     $.connection.deviceCommunicationHub.client.onDoorChange = function (index, status) {
         var img = 'Images/unknown.png';
 
@@ -96,27 +84,10 @@
         $.connection.deviceCommunicationHub.server.activateDoor(index, cmd);
     });
 
-
-
-  $.connection.hub.logging = true;
+    $.connection.hub.logging = true;
 
     $.connection.hub.start().done(function() {
-        //var request = {};
-        //request.Text = 'This is a request from a WebApp!';
-
-        //$.connection.deviceCommunicationHub.server.request(request).done(function(response) {
-        //    $('#ResponseText').html('<pre>Response: ' + response.Text + '</pre>');
-        //});
-
-        //$.connection.deviceCommunicationHub.server.requestAsync(request).done(function(response) {
-        //    $('#ResponseAsyncText').html('<pre>ResponseAsync: ' + response.Text + '</pre>');
-        //});
-
-        //$.connection.deviceCommunicationHub.server.requestWithCallbackAsync(request);
-
         $.connection.deviceCommunicationHub.server.joinGroup('WebApp');
-
-        //$.connection.deviceCommunicationHub.server.requestStatus('1234');
     });
 
 });

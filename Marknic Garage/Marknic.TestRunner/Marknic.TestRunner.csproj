@@ -41,7 +41,7 @@
   <ItemGroup>
     <Compile Include="CommandRequestTests.cs" />
     <Compile Include="GarageLightTests.cs" />
-    <Compile Include="OutPortStub.cs" />
+    <Compile Include="Stubs\OutPortStub.cs" />
     <Compile Include="GarageDoorTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Program.cs" />

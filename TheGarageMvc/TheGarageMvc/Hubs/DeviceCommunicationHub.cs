@@ -15,7 +15,7 @@ namespace TheGarageMvc.Hubs
         public string Password { get; set; }
         public static string ConsoleKey { get; set; }
 
-        NotificationBroker _notificationBroker = new NotificationBroker();
+        readonly NotificationBroker _notificationBroker = new NotificationBroker();
 
         public DeviceCommunicationHub()
         {
@@ -76,7 +76,7 @@ namespace TheGarageMvc.Hubs
 
             if ( hardlock || softlock ) 
                 _notificationBroker.Send("Garage", "Locked");
-            else if (!hardlock && !softlock )
+            else 
                 _notificationBroker.Send("Garage", "UnLocked");
         }
 
@@ -97,7 +97,7 @@ namespace TheGarageMvc.Hubs
 
         public override Task OnConnected()
         {
-            Clients.Client(ConsoleKey).RequestStatus(base.Context.ConnectionId);
+            Clients.Client(ConsoleKey).RequestStatus(Context.ConnectionId);
             return base.OnConnected();
         }
 
@@ -113,24 +113,6 @@ namespace TheGarageMvc.Hubs
 
             return response;
         }
-
-        //public async Task<FromServerToClientData> RequestAsync(FromClientToServerData request)
-        //{
-        //    var response = new FromServerToClientData { Text = "Responding to: " + request.Text };
-
-        //    await Task.Delay(TimeSpan.FromSeconds(1));
-
-        //    return response;
-        //}
-
-        //public async Task RequestWithCallbackAsync(FromClientToServerData request)
-        //{
-        //    var response = new FromServerToClientData { Text = "Responding to: " + request.Text };
-
-        //    await Task.Delay(TimeSpan.FromSeconds(5));
-
-        //    Clients.Others.OthersCallback(response);
-        //}
 
         public void JoinGroup(string groupName)
         {

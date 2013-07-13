@@ -14,7 +14,7 @@ namespace GadgeteerGarageSimulator
         private const int StepDelay = 50;
 
         private readonly GT.Timer _scanTimer;
-        private GT.Timer _obstructionTimer;
+        private readonly GT.Timer _obstructionTimer;
 
         private readonly GT.Socket _garageSocket;
         private readonly Servo _servoMotor;
@@ -56,6 +56,10 @@ namespace GadgeteerGarageSimulator
 
             _scanTimer = new GT.Timer(100);
             _scanTimer.Tick += ScanTimerTick;
+
+            _obstructionTimer = new GT.Timer(500);
+            _obstructionTimer.Tick += new GT.Timer.TickEventHandler(ObstructionTimerTick);
+
         }
 
         public void Start()
@@ -97,6 +101,9 @@ namespace GadgeteerGarageSimulator
 
         private void PrintDoorState()
         {
+            Debug.Print("running thread count: " + ThreadState.Background);
+            Debug.Print("Free Memory: " + Debug.GC(true));
+
             switch (_doorStates)
             {
                 case DoorStates.Down:
@@ -282,29 +289,24 @@ namespace GadgeteerGarageSimulator
             }
         }
 
+        private void ObstructionTimerTick(GT.Timer timer)
+        {
+            _obstructionSignal.Write(false);
+
+            _obstructionTimer.Stop();
+        }
+
         private bool ScanAndDelay()
         {
             ScanForGarageSwitch();
 
-            if (IsObstructed() && (_obstructionTimer == null))
+            if (IsObstructed())
             {
-                if (_obstructionTimer == null)
-                {
-                    _obstructionTimer = new GT.Timer(500);
-                    _obstructionTimer.Tick += timer =>
-                        {
-                            if (IsObstructed()) return;
+                _obstructionSignal.Write(true);
 
-                            _obstructionSignal.Write(false);
-            
-                            _obstructionTimer = null;
-                        };
-                    _obstructionTimer.Start();
-
-                    _obstructionSignal.Write(true);
-
-                    return true;
-                }
+                _obstructionTimer.Restart();
+                    
+                return true;
             }
 
             return false;
@@ -312,7 +314,7 @@ namespace GadgeteerGarageSimulator
 
         private bool IsObstructed()
         {
-            const double obstructionTriggerAmount = 2.6;
+            const double obstructionTriggerAmount = 1.5;
 
             var obstructionValue = _obstructionSensor.ReadVoltage();
 
@@ -322,7 +324,7 @@ namespace GadgeteerGarageSimulator
                 Debug.Print("Obstruction :" + obstructionValue);
                 Debug.Print("------------------------");
             }
-
+            
             return (obstructionValue < obstructionTriggerAmount);
         }
     }

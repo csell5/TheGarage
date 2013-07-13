@@ -72,3 +72,7 @@ C:\source\github\TheGarage\TheGarageMvc\GarageTestConsole\bin\Debug\Microsoft.As
 C:\source\github\TheGarage\TheGarageMvc\GarageTestConsole\obj\Debug\GarageTestConsole.csprojResolveAssemblyReference.cache
 C:\source\github\TheGarage\TheGarageMvc\GarageTestConsole\obj\Debug\GarageTestConsole.exe
 C:\source\github\TheGarage\TheGarageMvc\GarageTestConsole\obj\Debug\GarageTestConsole.pdb
+C:\_GIT\TheGarage\TheGarageMvc\GarageTestConsole\bin\Debug\Microsoft.AspNet.SignalR.Client.dll
+C:\_GIT\TheGarage\TheGarageMvc\GarageTestConsole\bin\Debug\Newtonsoft.Json.dll
+C:\_GIT\TheGarage\TheGarageMvc\GarageTestConsole\bin\Debug\Microsoft.AspNet.SignalR.Client.xml
+C:\_GIT\TheGarage\TheGarageMvc\GarageTestConsole\bin\Debug\Newtonsoft.Json.xml

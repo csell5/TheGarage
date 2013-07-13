@@ -118,9 +118,5 @@ C:\_GIT\TheGarage\Marknic Garage\NetduinoPlus2Garage\bin\Debug\Marknic.Web.pdb
 C:\_GIT\TheGarage\Marknic Garage\NetduinoPlus2Garage\bin\Debug\SecretLabs.NETMF.Hardware.Netduino.pdb
 C:\_GIT\TheGarage\Marknic Garage\NetduinoPlus2Garage\obj\Debug\NetduinoPlus2Garage.csprojResolveAssemblyReference.cache
 C:\_GIT\TheGarage\Marknic Garage\NetduinoPlus2Garage\obj\Debug\TinyCLR_DebugReferences.cache
-C:\_GIT\TheGarage\Marknic Garage\NetduinoPlus2Garage\obj\Debug\be\NetduinoPlus2Garage.pe
-C:\_GIT\TheGarage\Marknic Garage\NetduinoPlus2Garage\obj\Debug\be\NetduinoPlus2Garage.pdbx
-C:\_GIT\TheGarage\Marknic Garage\NetduinoPlus2Garage\obj\Debug\le\NetduinoPlus2Garage.pe
-C:\_GIT\TheGarage\Marknic Garage\NetduinoPlus2Garage\obj\Debug\le\NetduinoPlus2Garage.pdbx
 C:\_GIT\TheGarage\Marknic Garage\NetduinoPlus2Garage\obj\Debug\NetduinoPlus2Garage.exe
 C:\_GIT\TheGarage\Marknic Garage\NetduinoPlus2Garage\obj\Debug\NetduinoPlus2Garage.pdb

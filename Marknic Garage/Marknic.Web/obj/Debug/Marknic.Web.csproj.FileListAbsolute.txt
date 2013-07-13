@@ -48,3 +48,7 @@ C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\obj\Debug\Marknic.Web.csprojResolve
 C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\obj\Debug\TinyCLR_DebugReferences.cache
 C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\obj\Debug\Marknic.Web.dll
 C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\obj\Debug\Marknic.Web.pdb
+C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\obj\Debug\be\Marknic.Web.pe
+C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\obj\Debug\be\Marknic.Web.pdbx
+C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\obj\Debug\le\Marknic.Web.pe
+C:\_GIT\TheGarage\Marknic Garage\Marknic.Web\obj\Debug\le\Marknic.Web.pdbx

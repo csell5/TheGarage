@@ -38,10 +38,10 @@ strong, b {
 
 
 /* Wrappers */
-#garageManagement {
+.garageManagement {
     width: 700px;
-    margin: 0 auto;
-    position: relative;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #garageControl {
@@ -50,12 +50,10 @@ strong, b {
     position: relative;
 }
 
-#garageLocks {
+.garageLocks {
     font-size: 1.4em;
     top: 0px;
-    width: 100%;
-    margin: 0 auto;
-    position: relative;
+    float: left;
 }
 
 #softlockInput {
@@ -113,3 +111,17 @@ strong, b {
     margin: 0 auto;
 }
 
+.vidcam {
+    display: block;
+    width: 700px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+    .vidcam .remoteCam {
+        display: none;
+    }
+
+    .vidcam .localCam {
+        display: block;
+    }

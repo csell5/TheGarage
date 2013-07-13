@@ -46,7 +46,7 @@ namespace Marknic.TestRunner
 
         public void TestEx_CommandRequestTests_WhenCreatingCommandRequestWithNoCommandShouldThrowException()
         {
-            const string badJson = "{\"component\": \"door\", \"componentNumber\": 0, \"commmand\": \"toggle\"}";
+            const string badJson = "{\"component\": \"door\", \"componentNumber\": 0, \"wrongname\": \"toggle\"}";
 
             var commandRequest = new CommandRequest(badJson);
         }

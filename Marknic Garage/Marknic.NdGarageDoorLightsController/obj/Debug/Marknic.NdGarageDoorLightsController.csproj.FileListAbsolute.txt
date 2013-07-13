@@ -84,7 +84,3 @@ C:\_GIT\TheGarage\Marknic Garage\Marknic.NdGarageDoorLightsController\obj\Debug\
 C:\_GIT\TheGarage\Marknic Garage\Marknic.NdGarageDoorLightsController\obj\Debug\TinyCLR_DebugReferences.cache
 C:\_GIT\TheGarage\Marknic Garage\Marknic.NdGarageDoorLightsController\obj\Debug\Marknic.NdGarageDoorLightsController.dll
 C:\_GIT\TheGarage\Marknic Garage\Marknic.NdGarageDoorLightsController\obj\Debug\Marknic.NdGarageDoorLightsController.pdb
-C:\_GIT\TheGarage\Marknic Garage\Marknic.NdGarageDoorLightsController\obj\Debug\be\Marknic.NdGarageDoorLightsController.pe
-C:\_GIT\TheGarage\Marknic Garage\Marknic.NdGarageDoorLightsController\obj\Debug\be\Marknic.NdGarageDoorLightsController.pdbx
-C:\_GIT\TheGarage\Marknic Garage\Marknic.NdGarageDoorLightsController\obj\Debug\le\Marknic.NdGarageDoorLightsController.pe
-C:\_GIT\TheGarage\Marknic Garage\Marknic.NdGarageDoorLightsController\obj\Debug\le\Marknic.NdGarageDoorLightsController.pdbx

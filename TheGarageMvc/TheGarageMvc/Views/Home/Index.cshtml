@@ -3,13 +3,11 @@
 }
 
 
-<div id="garageManagement">
-    <header>
-        <strong>Garage Controller - <span id="garageName"></span></strong>
-    </header>
+<div class="garageManagement">
+        <h2>Garage Controller - <span id="garageName"></span></h2>
     <img id="garageIcon" src="~/Images/garageicon.png" alt="theGarage" height="75" width="155" />
             
-    <div id="garageLocks">
+    <div class="garageLocks">
                 
         <div id="garageLock">
             <span id="garageLockTitle">Garage Status:</span> <span id="garageLockStatus">Unlocked</span>
@@ -42,8 +40,31 @@
             <input id="light1" class="lights" type="image" src="~/Images/lightoff.png" width="83" height="95"  /><br/>
             <span id="light1Title">Outside Lights</span> 
         </div>
-                
-                
+                @*<button id="#remoteLocal">Switch</button><input id="Button1" type="button" value="button" />*@
     </div>
+    @*<div class="vidcam">
+        
+        <div class="remoteCam">
+            <h3>Remote</h3>
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="480" height="385">
+                <param name="movie" value="http://67.175.113.36:86/nchplayer.swf?host=67.175.113.36:1935&scope=BroadCam&streamName=live&bandwidth=1&src=1&autostart=true&redirect=&textOnOver=">
+                <param name="allowfullscreen" value="true">
+                <param name="quality" value="high">
+                <embed src="http://67.175.113.36:86/nchplayer.swf?host=67.175.113.36:1935&scope=BroadCam&streamName=live&bandwidth=1&src=1&autostart=true&redirect=&textOnOver=" width="480" height="385" allowfullscreen="true" quality="high" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer"/>
+            </object>
+        </div>
+        <div class="localCam">
+            <h3>Local</h3>
+            <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" codebase="http://download.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0" width="480" height="385">
+                <param name="movie" value="http://10.0.0.50:86/nchplayer.swf?host=10.0.0.50:1935&scope=BroadCam&streamName=live&bandwidth=1&src=1&autostart=true&redirect=&textOnOver=">
+                <param name="allowfullscreen" value="true">
+                <param name="quality" value="high">
+                <embed src="http://10.0.0.50:86/nchplayer.swf?host=10.0.0.50:1935&scope=BroadCam&streamName=live&bandwidth=1&src=1&autostart=true&redirect=&textOnOver=" width="480" height="385" allowfullscreen="true" quality="high" type="application/x-shockwave-flash" pluginspage="http://www.adobe.com/go/getflashplayer"/>
+            </object>
+        </div>
+        
+        
+
+    </div>*@
 </div>
 
